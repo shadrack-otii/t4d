@@ -42,6 +42,8 @@ use App\Http\Controllers\WishlistController;
 use App\Http\Controllers\Sectors\sectorController;
 
 //Sectors routes
+Route::get('/', [sectorController::class, 'home'])->name('yeah');
+
 Route::get('/forestry', [sectorController::class, 'forestry'])->name('forestry');
 Route::get('/tourism', [sectorController::class, 'tourism'])->name('tourism');
 Route::get('/manufacturing', [sectorController::class, 'manufacturing'])->name('manufacturing');

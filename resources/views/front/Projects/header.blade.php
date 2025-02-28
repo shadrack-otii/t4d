@@ -1,7 +1,7 @@
 <header class="@yield('position', 'sticky') top-0 left-0 bg-white w-full z-[99]">
 <!-- Topbar -->
 
-<div class="bg-green-400 text-white text-sm py-2 px-4">
+<div class="bg-blue-500 text-white text-sm py-2 px-4">
     <div class="container mx-auto flex justify-between items-center">
         <!-- Left section: Contact Info -->
         <div
@@ -134,6 +134,8 @@
                     
                     <!-- Courses -->
                     <div class="relative group">
+
+                        
                       <button type="button" class="text-gray-500 bg-gray-200 rounded-md inline-flex items-center px-2 py-2 text-base font-medium hover:text-[#00a651] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                         Courses
                         <svg class="ml-2 h-5 w-5 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -141,7 +143,7 @@
                         </svg>
                     </button>
               
-                        <div class="absolute z-10 scale-y-0 group-hover:scale-y-100 origin-top duration-500 mt-2 w-48  rounded-lg bg-gray-100 shadow-lg ring-1 ring-black ring-opacity-5 group-hover:block" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+                        <div class="absolute z-10 scale-y-0 group-hover:scale-y-100 origin-top duration-500 origin-top duration-500 mt-2 w-48  rounded-lg bg-gray-100 shadow-lg ring-1 ring-black ring-opacity-5 group-hover:block" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
                           <div class="py-1 " role="none">
                             <div class="relative feature-3-group  col-span-1 shadow-lg">
                                 <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200 flex items-center justify-between  transition delay-150 duration-700 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-gray-100 rounded-full"  role="menuitem" onclick="event.preventDefault();">
@@ -590,7 +592,7 @@
                               <div class="py-1 bg-gray-100 rounded-lg" role="none">
                                 <a href="{{route('about')}}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition delay-150 duration-700 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-gray-100 rounded-full" role="menuitem" tabindex="-1" id="menu-item-0">About us</a>
                                 <a href="{{route('contact')}}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition delay-150 duration-700 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-gray-100 rounded-full" role="menuitem" tabindex="-1" id="menu-item-1">Contact</a>
-                                <a href="https://teefodee.com/blog/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition delay-150 duration-700 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-gray-100 rounded-full" role="menuitem" tabindex="-1" id="menu-item-2">Blog</a>
+                                <a href="https://teefodee.com/blog/" target="_blank" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition delay-150 duration-700 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-gray-100 rounded-full" role="menuitem" tabindex="-1" id="menu-item-2">Blog</a>
     
                                
                               </div>
@@ -665,7 +667,7 @@
         </div>
     </div>
     <!-- Blue line -->
-    <div class="bg-[#00a651] relative z-0 pt-1 @yield('display')" id="line"></div>
+    <div class="bg-blue-500 relative z-0 pt-1 @yield('display')" id="line"></div>
     <!-- search form -->
     <div  class="hidden" id="searchBar" >
 

@@ -79,5 +79,8 @@ class sectorController extends Controller
     public function ict(){
         return view('sectors/ict');
     }
+    public function home(){
+        return view('sectors/home');
+    }
 
 }
