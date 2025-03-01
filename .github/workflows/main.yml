@@ -22,7 +22,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: '/home/thenetwork/public_html/'
           protocol: ftps
-          # passive: true
+          passive: true
           port: 21
           local-dir: './'
 
