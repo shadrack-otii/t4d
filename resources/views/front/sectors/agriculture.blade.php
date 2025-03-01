@@ -13,7 +13,7 @@
           <div class="col-sm-6 first-column">
             <div class="py-2 align-middle">
                 <div class="ip-tagline">
-                    <h3>Agriculture Sector Services</h3>
+                    <h3>Agriculture Sector Servicess</h3>
                     <hr class="ip-inner-header"/>
                 </div>
                 <p>In the thriving Agricultural sector, Indepth Research Institute stands as a catalyst for growth, offering comprehensive corporate training and development, consultancy services, and industry solutions. Rooted in a commitment to agricultural excellence, we provide specialized services designed to empower professionals and organizations contributing to the vitality of the agricultural landscape.</p>
