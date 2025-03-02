@@ -14,7 +14,7 @@
         <div class="absolute inset-0 bg-black opacity-50"></div>
         <div class="absolute inset-0 flex items-center justify-center text-center text-white">
             <div class="max-w-3xl px-4">
-                <h1 class="text-4xl font-bold mb-4">Mobile Data Collection in BFSI</h1>
+                <h1 class="text-4xl font-bold mb-4">Mobile Data Collection in BFSI.</h1>
                 {{-- <p class="text-lg">By
                     Lee
                     February 6, 2025</p> --}}
