@@ -1,6 +1,5 @@
 @extends('front.Projects.master')
 @section('content')
-<div>HELLO WORLD</div>
 <div class="relative w-full h-96 md:h-[500px] overflow-hidden">
     <div class="absolute inset-0 flex transition-transform duration-500 ease-in-out" id="simple-slider">
   
