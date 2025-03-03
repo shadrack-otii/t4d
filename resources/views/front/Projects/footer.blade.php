@@ -48,11 +48,13 @@
                         </button>
                     </div>
                     <ul id="opportunities" class="list-none dropdown-menu hidden md:block text-white text-[12px] *:my-4">
-                            <li><a href="{{ url('programs')}}" class="hover:text-[#0096FF]"></a>Courses</li>
-                            <li><a href="{{ route('sector') }}" class="hover:text-[#0096FF]"></a>Learning Pathways</li>
-                            <li><a href="{{url ('certification')}}#" class="hover:text-[#0096FF]"></a>Free Consultation</li>
-                            <li><a href="{{ route('careers') }}" class="hover:text-[#0096FF]"></a>Affiliated Websites</li>
-                            <li><a href="{{ route('careers') }}" class="hover:text-[#0096FF]"></a>Media</li>
+                            <li><a href="{{ url('programs')}}" class="hover:text-[#0096FF]">Courses</a></li>
+                            <li><a href="{{ route('sector') }}" class="hover:text-[#0096FF]">Sectors</a></li>
+                            <li><a href="{{url ('certification')}}#" class="hover:text-[#0096FF]">Tools</a></li>
+                            <li><a href="{{ route('careers') }}" class="hover:text-[#0096FF]">Modes</a></li>
+                            <li><a href="{{ route('careers') }}" class="hover:text-[#0096FF]">Case</a></li>
+                            <li><a href="{{ route('careers') }}" class="hover:text-[#0096FF]">Resources</a></li>
+
                             {{-- <li><a href="{{ route('trainers') }} " class="hover:text-[#0096FF]">Become a Trainer</a></li> --}}
                             {{-- <li><a href="{{ route('training_calendar.index', ['year' => date('Y')]) }}" class="hover:text-[#0096FF]">Training Calendar</a></li> --}}
                     </ul>
@@ -68,10 +70,16 @@
                     </div>
 
                     <ul id="our-services" class="dropdown-menu hidden md:block text-white text-[12px] *:my-4 list-none">
-                        <li><a href="#" class="hover:text-[#0096FF]">Data Services</a></li>
+                        <li><a href="#" class="hover:text-[#0096FF]">Data</a></li>
                         <li><a href="#" class="hover:text-[#0096FF]">E-Learning</a></li>
-                        <li><a href="#" class="hover:text-[#0096FF]">E-Commerece</a></li>
-                        <li><a href="#" class="hover:text-[#0096FF]">Tech Engineering</a></li>
+                        <li><a href="#" class="hover:text-[#0096FF]">E-Commerce</a></li>
+                        <li><a href="#" class="hover:text-[#0096FF]">Digital Marketing</a></li>
+                        <li><a href="#" class="hover:text-[#0096FF]">Business Process Automation</a></li>
+                        <li><a href="#" class="hover:text-[#0096FF]">Media Buying</a></li>
+                        <li><a href="#" class="hover:text-[#0096FF]">Digital Marketing</a></li>
+
+
+
                         <li><a href="{{ route('sector') }}" class="hover:text-[#0096FF]">Trainings and Consultations </a></li>
                        
                     </ul>
