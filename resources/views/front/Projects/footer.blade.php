@@ -1,12 +1,12 @@
 <footer class="bg-gray-900 text-gray-400 text-sm">
-    <div class="max-w-6xl mx-auto px-4 py-6 flex flex-col md:flex-row justify-between items-center md:items-start">
+    <div class="max-w-6xl mx-auto px-2 py-6 flex flex-col md:flex-row justify-between items-center md:items-start">
         <!-- Logo Section -->
-        <div class="flex items-center space-x-2 mb-4 md:mb-0">
-            <img src="{{ asset('front/assets/img/logo/t4d_full.png') }}" alt="Logo" class="h-20"> 
+        <div class="flex items-center space-x-2 mb-4 md:mb-0 pr-5">
+            <img src="{{ asset('front/assets/img/logo/t4d_full.png') }}" alt="Logo" class="h-20 object-contain self-start"> 
         </div>
 
         <!-- Links Section -->
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center md:text-left">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-5 text-center md:text-left">
             <div>
                 <h3 class="text-white font-semibold mb-2">About T4D</h3>
                 <ul>
@@ -33,9 +33,9 @@
 
                 </ul>
             </div>
-            <div>
+            <div class="col-span-2">
                 <h3 class="text-white font-semibold mb-2">Our services</h3>
-                {{-- <ul>
+                <ul style="list-style-type: disc;">
                     <li><a href="#" class="hover:text-white">Training</a></li>
                     <li><a href="#" class="hover:text-white">Device hiring</a></li>
                     <li><a href="#" class="hover:text-white">Advisory</a></li>
@@ -43,16 +43,17 @@
                     <li><a href="#" class="hover:text-white">Enumerator training</a></li>
                     <li><a href="#" class="hover:text-white">Implementation (Authoring, Server, Mobile)</a></li>
                     <li><a href="#" class="hover:text-white">Field officers’ management/Research assistants/Enumerators</a></li>
-                </ul> --}}
+                </ul>
             </div>
             <div>
                 <h3 class="text-white font-semibold mb-2">Follow Us</h3>
-                <div class="flex justify-center md:justify-start space-x-3">
+                <div class="flex justify-center md:justify-start space-x-4">
                     <a href="#" class="hover:text-white"><i class="fab fa-facebook"></i></a>
-                    <a href="#" class="hover:text-white"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="hover:text-white"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="hover:text-white"><i class="fab fa-linkedin"></i></a>
-                    <a href="#" class="hover:text-white"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/Indepthresearch" class="hover:text-white"><i class="fab fa-x"></i></a>
+                    <a href="https://www.instagram.com/indepthresearchinstitute/" class="hover:text-white"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/indepth-research-services" class="hover:text-white"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.tiktok.com/@indepth_research" class="hover:text-white"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://www.youtube.com/@indepthresearchinstitute" class="hover:text-white"><i class="fab fa-youtube"></i></a>
 
                 </div>
             </div>
@@ -72,7 +73,7 @@
     </div>
 
     <!-- Copyright -->
-    <div class="text-center py-4 border-t border-gray-700">
+    <div class="text-center py-4 border-t border-blue-700">
         <p>© 2025 TechForDevelopment. All rights reserved.</p>
     </div>
 </footer>
