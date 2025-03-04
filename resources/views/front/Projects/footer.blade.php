@@ -74,6 +74,6 @@
 
     <!-- Copyright -->
     <div class="text-center py-4 border-t border-blue-700">
-        <p>© 2025 TechForDevelopment. All rights reserved.</p>
+        <p>© 2025 TechForDevelopment.All rights reserved.</p>
     </div>
 </footer>
