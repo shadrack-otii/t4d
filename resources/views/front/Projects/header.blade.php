@@ -685,7 +685,7 @@
         </div>
     </div>
     <!-- Blue line -->
-    <div class="bg-blue-500 relative z-0 pt-1 @yield('display')" id="line"></div>
+    <div class="bg-green-500 relative z-0 pt-1 @yield('display')" id="line"></div>
     <!-- search form -->
     <div  class="hidden" id="searchBar" >
 
