@@ -50,7 +50,237 @@
         </svg>
       </button>
     </div>
+
   </div>
+
+  <style>
+    /* Glassmorphism Effect */
+    .glass {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(8px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    }
+    /* Neon Glow Effect */
+    .neon {
+        text-shadow: 0 0 5px rgba(255, 255, 255, 0.6);
+    }
+</style>
+
+<div class="w-full py-16 flex justify-center">
+  <div class="flex justify-around items-center gap-4 w-[90%] overflow-x-auto">
+      
+      <!-- Counter Items -->
+      <div class="glass p-4 w-24 text-center opacity-0 transform scale-90 transition-all duration-500 counter-box">
+          <h2 class="text-3xl font-bold neon counter" data-target="999">0</h2>
+          <p class="text-sm text-gray-900 mt-1">Consultancy Areas</p>
+      </div>
+
+      <div class="glass p-4 w-24 text-center opacity-0 transform scale-90 transition-all duration-500 counter-box">
+          <h2 class="text-3xl font-bold neon counter" data-target="85">0</h2>
+          <p class="text-sm text-gray-900 mt-1">Clients</p>
+      </div>
+
+      <div class="glass p-4 w-24 text-center opacity-0 transform scale-90 transition-all duration-500 counter-box">
+          <h2 class="text-3xl font-bold neon counter" data-target="10">0</h2>
+          <p class="text-sm text-gray-900 mt-1">Awards</p>
+      </div>
+
+      <div class="glass p-4 w-24 text-center opacity-0 transform scale-90 transition-all duration-500 counter-box">
+          <h2 class="text-3xl font-bold neon counter" data-target="50">0</h2>
+          <p class="text-sm text-gray-900 mt-1">Employees</p>
+      </div>
+
+      <div class="glass p-4 w-24 text-center opacity-0 transform scale-90 transition-all duration-500 counter-box">
+          <h2 class="text-3xl font-bold neon counter" data-target="15">0</h2>
+          <p class="text-sm text-gray-900 mt-1">Countries</p>
+      </div>
+
+      <div class="glass p-4 w-24 text-center opacity-0 transform scale-90 transition-all duration-500 counter-box">
+          <h2 class="text-3xl font-bold neon counter" data-target="5">0</h2>
+          <p class="text-sm text-gray-900 mt-1">Offices</p>
+      </div>
+
+  </div>
+</div>
+
+<script>
+  function startCounting() {
+      const counters = document.querySelectorAll(".counter");
+
+      counters.forEach(counter => {
+          let target = +counter.getAttribute("data-target");
+          let count = 0;
+          let increment = Math.ceil(target / 100);
+
+          function updateCounter() {
+              if (count < target) {
+                  count += increment;
+                  counter.textContent = count;
+                  setTimeout(updateCounter, 20);
+              } else {
+                  counter.textContent = target + "+";
+              }
+          }
+
+          updateCounter();
+      });
+  }
+
+  function resetAnimation() {
+      const counterBoxes = document.querySelectorAll(".counter-box");
+
+      counterBoxes.forEach(box => {
+          box.classList.remove("opacity-100", "scale-100");
+          box.classList.add("opacity-0", "scale-90");
+      });
+
+      setTimeout(() => {
+          counterBoxes.forEach(box => {
+              box.classList.remove("opacity-0", "scale-90");
+              box.classList.add("opacity-100", "scale-100");
+          });
+
+          startCounting();
+      }, 300);
+  }
+
+  // Restart animation on every scroll
+  window.addEventListener("scroll", () => {
+      resetAnimation();
+  });
+</script>
+
+<section class="bg-gray-100 py-16">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-semibold text-gray-800 mb-6 text-center">Courses</h2>
+    <p class="text-gray-600 text-center mb-8">
+      Discover a wide range of courses crafted to enhance your skills and accelerate your career.
+    </p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <a
+        href="/software-tech-courses"
+        class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 hover:bg-blue-500"
+      >
+        <h3 class="text-xl font-semibold text-gray-800 mb-4">Software and Tech</h3>
+        <p class="text-gray-600">
+          Explore courses in programming, web development, cybersecurity, and more.
+        </p>
+      </a>
+
+      <a
+        href="/ecommerce-courses"
+        class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 hover:bg-blue-500"
+      >
+        <h3 class="text-xl font-semibold text-gray-800 mb-4">E-Commerce</h3>
+        <p class="text-gray-600">
+          Learn how to build and manage successful online stores and businesses.
+        </p>
+      </a>
+
+      <a
+        href="/elearning-courses"
+        class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 hover:bg-blue-500"
+      >
+        <h3 class="text-xl font-semibold text-gray-800 mb-4">E-Learning</h3>
+        <p class="text-gray-600">
+          Discover how to create and deliver engaging online educational content.
+        </p>
+      </a>
+
+      <a
+        href="/data-services-courses"
+        class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 hover:bg-blue-500"
+      >
+        <h3 class="text-xl font-semibold text-gray-800 mb-4">Data Services</h3>
+        <p class="text-gray-600">
+          Gain expertise in data analytics, data science, and database management.
+        </p>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<section class="bg-gray-100 py-10">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-semibold text-gray-800 mb-8 text-center">Our Services</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+        <img src="images/0x0.webp" alt="Service 1" class="w-full h-36 object-cover object-center">
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gray-800 mb-2">Web Development</h3>
+          <p class="text-gray-600 text-sm">
+            We build responsive and scalable websites tailored to your business needs.
+          </p>
+          <a href="/web-development" class="mt-2 inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 text-sm">Learn More</a>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+        <img src="images/0x0.webp" alt="Service 2" class="w-full h-36 object-cover object-center">
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gray-800 mb-2">Digital Marketing</h3>
+          <p class="text-gray-600 text-sm">
+            Boost your online presence and reach your target audience with our digital marketing strategies.
+          </p>
+          <a href="/digital-marketing" class="mt-2 inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 text-sm">Learn More</a>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+        <img src="images/0x0.webp" alt="Service 3" class="w-full h-36 object-cover object-center">
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gray-800 mb-2">Data Analytics</h3>
+          <p class="text-gray-600 text-sm">
+            Gain valuable insights from your data to make informed business decisions.
+          </p>
+          <a href="/data-analytics" class="mt-2 inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 text-sm">Learn More</a>
+        </div>
+      </div>
+      <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+        <img src="images/0x0.webp" alt="Service 4" class="w-full h-36 object-cover object-center">
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gray-800 mb-2">Cloud Solutions</h3>
+          <p class="text-gray-600 text-sm">
+            Scalable cloud solutions that will help your business grow.
+          </p>
+          <a href="/cloud-solutions" class="mt-2 inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 text-sm">Learn More</a>
+        </div>
+      </div>
+      <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+        <img src="images/0x0.webp" alt="Service 5" class="w-full h-36 object-cover object-center">
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gray-800 mb-2">Mobile App Development</h3>
+          <p class="text-gray-600 text-sm">
+            Mobile apps for IOS and Android.
+          </p>
+          <a href="/mobile-app-development" class="mt-2 inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 text-sm">Learn More</a>
+        </div>
+      </div>
+      <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+        <img src="images/0x0.webp" alt="Service 6" class="w-full h-36 object-cover object-center">
+        <div class="p-4">
+          <h3 class="text-lg font-semibold text-gray-800 mb-2">SEO</h3>
+          <p class="text-gray-600 text-sm">
+            Increase your search engine ranking.
+          </p>
+          <a href="/seo" class="mt-2 inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 text-sm">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
   
   <script>
     const slider = document.getElementById('simple-slider');

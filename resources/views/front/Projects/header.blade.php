@@ -2,36 +2,47 @@
 <!-- Topbar -->
 
 <div class="bg-blue-500 text-white text-sm py-2 px-4">
-    <div class="container mx-auto flex justify-between items-center">
+    <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
         <!-- Left section: Contact Info -->
-        <div
-        class="w-max text-sm inline-flex sm:flex items-center justify-start space-x-2 sm:space-x-4 mt-2 sm:mt-0">
-        <svg class="h-4 w-4 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path
-                d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
-        </svg>
-        <a href="tel:+254792516000" class="hover:text-[#a11e22] flex items-center text-sm">(+254) 11 343 4055
-            </a>
-        <span>|</span>
-        <svg class="h-4 w-4 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
-            <polyline points="22,6 12,13 2,6" />
-        </svg>
-        <a href="mailto:outreach@indepthresearch.org"
-            class="hover:text-[#a11e22] flex items-center text-sm">outreach@indepthresearch.org</a>
-        <span>|</span>
-        <svg class="h-4 w-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-        </svg>
-        <a href="https://maps.app.goo.gl/howUuW8trCDfQQeA9" target="_blank" class="hover:text-[#a11e22] flex items-center text-sm">
-            Head Office: Tala Road, Runda - Nairobi
-        </a>
-    </div>
+        <div class="w-full text-sm flex flex-wrap items-center justify-center sm:justify-start gap-2 mt-2 sm:mt-0">
+            <div class="flex items-center space-x-1">
+                <svg class="h-4 w-4 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                        d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                </svg>
+                <a href="tel:+254792516000" class="hover:text-[#a11e22] flex items-center text-sm">(+254) 11 343 4055</a>
+            </div>
+        
+            <span class="hidden sm:block">|</span>
+        
+            <div class="flex items-center space-x-1">
+                <svg class="h-4 w-4 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                    <polyline points="22,6 12,13 2,6" />
+                </svg>
+                <a href="mailto:letstalk@techfordevelopment.com" class="hover:text-[#a11e22] flex items-center text-sm">
+                    letstalk@techfordevelopment.com
+                </a>
+            </div>
+        
+            <span class="hidden sm:block">|</span>
+        
+            <div class="flex items-center space-x-1">
+                <svg class="h-4 w-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+                <a href="https://maps.app.goo.gl/howUuW8trCDfQQeA9" target="_blank"
+                    class="hover:text-[#a11e22] flex items-center text-sm text-center">
+                    Head Office: Tala Road, Runda - Nairobi
+                </a>
+            </div>
+        </div>
+        
 
         <!-- Right section: Social Icons -->
         <div class="flex space-x-4">
@@ -98,10 +109,10 @@
 
 <nav>
     <!-- second navbar -->
-<div class="@yield('textColor')  bg-gray-200 @yield('opacity') relative z-10" name="top" id="Top">
+<div class="@yield('textColor') bg-gray-200 @yield('opacity') relative z-10" name="top" id="Top">
         <div class="flex items-center bg-gray-200">
             <!-- IRES logo -->
-            <div class=" py-1 order-1">
+            <div class="py-1 order-1 ">
                 <a href="/" class="">
                     <div class="icon h-11 w-max px-3 md:border-r border-[#00a651]">
                         <img class="h-full w-full object-cover" src="{{ asset('front/assets/img/logo/t4d_full.png') }}" alt="T4D-Logo">
@@ -110,24 +121,25 @@
             </div>
 
             <!-- Hambuger -->
-            <div id="mob-menu" class=" lg:hidden fixed left-1/2 -translate-x-1/2 z-50 ">
+            {{-- <div id="mob-menu" class="lg:hidden w-full">
                 <div class="hidden cursor-pointer mt-2 mb-2" id="X_box">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
                         </svg>
                 </div>
+                
                 <div class="block cursor-pointer mt-2 mb-2" id="H_box">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                         </svg>
                 </div>
-              </div>
+              </div> --}}
 
             <!--Desktop Header-->
             <!-- the Menu -->
-            <div id="menu" class="hidden bg-[#0096FF] lg:bg-transparent lg:block order-3 lg:order-2 lg:w-9/12 absolute lg:relative top-14 lg:top-0  left-0 w-full lg:px-2 z-40 ">
+            <div id="menu" class="hidden bg-[#0096FF] lg:bg-transparent lg:block order-3 lg:order-2 lg:w-9/12 absolute lg:relative top-14 lg:top-0  left-0 w-full lg:px-2 z-40">
                 <div class=" text-lg text-black font-semibold">
-                    <div class=" lg:flex justify-between flex-nowrap divide-y lg:divide-y-0 lg:*:p-3 cursor-pointer">
+                    <div class="lg:flex justify-between flex-nowrap divide-y lg:divide-y-0 lg:*:p-3 cursor-pointer">
                          <div class="relative group/sc lg:rounded-xl  ">
                           <a href="{{ url('/') }}" class="dropdown-btn max-sm:text-white hover:text-[#00a651] cursor-pointer flex justify-between px-4 py-2 lg:px-0 my-4 lg:my-0">
     <div class="dropdown-label">Home</div>
@@ -137,12 +149,10 @@
 </a>
 
                         </div>
-
-                        
+                       
                     
                     <!-- Courses -->
                     <div class="relative group">
-
                         
                       <button type="button" class="text-gray-500 bg-gray-200 rounded-md inline-flex items-center px-2 py-2 text-base font-medium hover:text-[#00a651] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                         Courses
@@ -702,5 +712,26 @@
       </style>
 </nav>
 
+{{-- <script>
+    const menu = document.getElementById("menu");
+    const H_box = document.getElementById("H_box");
+    const X_box = document.getElementById("X_box");
+    const searchBar = document.getElementById("search-bar");
+    const searchIcon = document.getElementById("search-icon");
 
+    // Open menu
+    H_box.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+    });
+
+    // Close menu
+    X_box.addEventListener("click", () => {
+        menu.classList.add("hidden");
+    });
+
+    // Toggle search bar
+    searchIcon.addEventListener("click", () => {
+        searchBar.classList.toggle("hidden");
+    });
+</script> --}}
 </header>

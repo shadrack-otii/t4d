@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-    <title>@yield('title') - Tech For Development (T4D)</title>
+    <title>@yield('title') Tech For Development (T4D)</title>
     <!-- Google Tag Manager -->
 
     <!-- End Google Tag Manager -->
@@ -137,7 +137,7 @@
 <!-- /GetButton.io widget -->
 
 
-<body class="relative">
+<body class="relative overflow-x-hidden">
     <div class="w-full h-full body-full">
         @include('front.Projects.header')
 
