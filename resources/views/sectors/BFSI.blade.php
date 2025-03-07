@@ -27,7 +27,7 @@
         <div class="md:grid-cols-3 gap-8">
 
             <div class="md:col-span-2">
-                <h2 class="text-3xl font-bold mb-6 text-blue-300">Key Take aways</h2>
+                <h2 class="text-3xl font-bold mb-6 text-blue-300">Key Take aways.</h2>
 
                 <article class="mb-8 bg-white rounded-lg shadow-md overflow-hidden">
                     <img src="images/forestheader.jpg" alt="Article 1" class="w-full h-48 object-cover">
