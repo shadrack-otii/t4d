@@ -43,12 +43,12 @@
             <div>
                 <h3 class="text-lg font-bold border-b-2 border-white pb-1 mb-3">Follow Us</h3>
                 <div class="flex justify-center md:justify-start space-x-4 text-lg">
-                    <a href="#" class="hover:text-green-300 transform hover:scale-110 transition duration-300"><i class="fab fa-facebook"></i></a>
-                    <a href="https://twitter.com/Indepthresearch" class="hover:text-green-300 transform hover:scale-110 transition duration-300"><i class="fab fa-x"></i></a>
-                    <a href="https://www.instagram.com/indepthresearchinstitute/" class="hover:text-green-300 transform hover:scale-110 transition duration-300"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/company/indepth-research-services" class="hover:text-green-300 transform hover:scale-110 transition duration-300"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://www.tiktok.com/@indepth_research" class="hover:text-green-300 transform hover:scale-110 transition duration-300"><i class="fab fa-tiktok"></i></a>
-                    <a href="https://www.youtube.com/@indepthresearchinstitute" class="hover:text-green-300 transform hover:scale-110 transition duration-300"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.facebook.com/t4dkenya" class="hover:text-green-300 transform hover:scale-110 transition duration-300"><i class="fab fa-facebook"></i></a>
+                    <a href="https://x.com/TechForDevelop1" class="hover:text-green-300 transform hover:scale-110 transition duration-300"><i class="fab fa-x"></i></a>
+                    <a href="https://www.instagram.com/techfordevelopment?igsh=MTk3anVocDJrMTV1ZA==" class="hover:text-green-300 transform hover:scale-110 transition duration-300"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/tech-for-development-ltd/" class="hover:text-green-300 transform hover:scale-110 transition duration-300"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.tiktok.com/@teefodeeacademy" class="hover:text-green-300 transform hover:scale-110 transition duration-300"><i class="fab fa-tiktok"></i></a>
+                    {{-- <a href="https://www.youtube.com/@indepthresearchinstitute" class="hover:text-green-300 transform hover:scale-110 transition duration-300"><i class="fab fa-youtube"></i></a> --}}
                 </div>
             </div>
         </div>

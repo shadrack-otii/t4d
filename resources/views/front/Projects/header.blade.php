@@ -4,7 +4,7 @@
 <div class="bg-blue-500 text-white text-sm py-2 px-4">
     <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
         <!-- Left section: Contact Info -->
-        <div class="w-full text-sm flex flex-wrap items-center justify-center sm:justify-start gap-2 mt-2 sm:mt-0">
+        <div class="w-full text-sm flex justify-between flex-wrap sm:justify-start gap-2 mt-2 sm:mt-0">
             <div class="flex items-center space-x-1">
                 <svg class="h-4 w-4 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -46,7 +46,7 @@
 
         <!-- Right section: Social Icons -->
         <div class="flex space-x-4">
-        {{-- youtube --}}
+        {{-- youtube
         <a href="https://www.youtube.com/@indepthresearchinstitute"
         class="p2 rounded-lg flex items-center justify-center transition-all duration-500 hover:border-[#a11e22] hover:bg-[#a11e22]">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 71 71"
@@ -54,17 +54,18 @@
             <path fill-rule="evenodd" clip-rule="evenodd"
                 d="M56.5615 18.2428C58.8115 18.8504 60.58 20.6234 61.1778 22.8708C62.2654 26.9495 62.2654 35.4647 62.2654 35.4647C62.2654 35.4647 62.2654 43.98 61.1778 48.0586C60.5717 50.3144 58.8032 52.0873 56.5615 52.6866C52.4932 53.7771 36.1703 53.7771 36.1703 53.7771C36.1703 53.7771 19.8557 53.7771 15.7791 52.6866C13.5291 52.079 11.7606 50.306 11.1628 48.0586C10.0752 43.98 10.0752 35.4647 10.0752 35.4647C10.0752 35.4647 10.0752 26.9495 11.1628 22.8708C11.7689 20.615 13.5374 18.8421 15.7791 18.2428C19.8557 17.1523 36.1703 17.1523 36.1703 17.1523C36.1703 17.1523 52.4932 17.1523 56.5615 18.2428ZM44.5142 35.4647L30.9561 43.314V27.6154L44.5142 35.4647Z"
                 fill="#fff" />
-        </svg></a>
-{{-- facebook
-<a href="https://www.youtube.com/@indepthresearchinstitute"
+        </svg></a> --}}
+
+{{-- facebook --}}
+<a href="https://www.facebook.com/t4dkenya"
    class="p2 rounded-lg flex items-center justify-center transition-all duration-500 hover:border-[#a11e22] hover:bg-[#a11e22]">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="24" height="24" fill="#fff">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="20" height="20" fill="#fff">
         <path d="M279.14 288l14.22-92.66h-88.91v-62.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/>
     </svg>
-</a> --}}
+</a>
              
          {{-- tiktok --}}
-              <a href="https://www.tiktok.com/@indepth_research"
+              <a href="https://www.tiktok.com/@teefodeeacademy"
                   class="p2 rounded-lg flex items-center borde rborder-gray-300 justify-center transition-all duration-500 hover:border-[#a11e22] hover:bg-[#a11e22]">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 72 72"
                       fill="none">
@@ -75,7 +76,7 @@
       
         
      {{-- twitter --}}
-     <a href="https://twitter.com/Indepthresearch"
+     <a href="https://x.com/TechForDevelop1"
      class="p2 rounded-lg flex items-center borderbordergray300 justify-center transition-all duration-500 hover:border-[#a11e22] hover:bg-[#a11e22]">
      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 71 72"
          fill="none">
@@ -85,7 +86,7 @@
      </svg></a>
      
      {{-- linkedin --}}
-     <a href="https://www.linkedin.com/company/indepth-research-services"
+     <a href="https://www.linkedin.com/company/tech-for-development-ltd/"
      class="p2 rounded-lg flex items-center borderbordergray300 justify-center transition-all duration-500 hover:border-[#a11e22] hover:bg-[#a11e22]">
      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 72 72"
          fill="none">
@@ -95,7 +96,7 @@
      </svg></a>
      
     {{-- instagram --}}
-    <a href="https://www.instagram.com/indepthresearchinstitute/"
+    <a href="https://www.instagram.com/techfordevelopment?igsh=MTk3anVocDJrMTV1ZA=="
     class="p2 rounded-lg flex items-center borderbordergray300 justify-center transition-all duration-500 hover:border-[#a11e22] hover:bg-[#a11e22]">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 71 72"
         fill="none">
@@ -181,6 +182,7 @@
 
                             <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition delay-150 duration-700 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-gray-100 rounded-full" role="menuitem" tabindex="-1" id="menu-item-1">Data Science</a>
                             <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition delay-150 duration-700 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-gray-100 rounded-full" role="menuitem" tabindex="-1" id="menu-item-2">Mapping</a>
+
 
                         
                           </div>
@@ -611,7 +613,8 @@
                                 <a href="{{route('about')}}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition delay-150 duration-700 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-gray-100 rounded-full" role="menuitem" tabindex="-1" id="menu-item-0">About us</a>
                                 <a href="{{route('contact')}}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition delay-150 duration-700 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-gray-100 rounded-full" role="menuitem" tabindex="-1" id="menu-item-1">Contact</a>
                                 <a href="https://teefodee.com/blog/" target="_blank" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition delay-150 duration-700 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-gray-100 rounded-full" role="menuitem" tabindex="-1" id="menu-item-2">Blog</a>
-    
+                                <a href="{{ route('faqs') }}" target="_blank" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition delay-150 duration-700 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-gray-100 rounded-full" role="menuitem" tabindex="-1" id="menu-item-3">FAQs</a>
+
                                
                               </div>
                             </div>
