@@ -4,7 +4,7 @@
 <div class="bg-blue-500 text-white text-sm py-2 px-4">
     <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
         <!-- Left section: Contact Info -->
-        <div class="w-full text-sm flex justify-between flex-wrap sm:justify-start gap-2 mt-2 sm:mt-0">
+        <div class="w-full text-sm flex flex-grow justify-center justify-evenly flex-wrap gap-4 mt-2 sm:mt-0">
             <div class="flex items-center space-x-1">
                 <svg class="h-4 w-4 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round">

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="overscroll-none">
 <head>
 
     <title>@yield('title') Tech For Development (T4D)</title>
@@ -138,7 +138,7 @@
 
 
 <body class="relative overflow-x-hidden">
-    <div class="w-full h-full body-full">
+    <div class="w-full h-full">
         @include('front.Projects.header')
 
         @yield('content')
