@@ -156,7 +156,7 @@
                     <div class="relative group">
                         
                       <button type="button" class="text-gray-500 bg-gray-200 rounded-md inline-flex items-center px-2 py-2 text-base font-medium hover:text-[#00a651] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                        Courses
+                        Courses 
                         <svg class="ml-2 h-5 w-5 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                             <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
                         </svg>
@@ -182,6 +182,8 @@
 
                             <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition delay-150 duration-700 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-gray-100 rounded-full" role="menuitem" tabindex="-1" id="menu-item-1">Data Science</a>
                             <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition delay-150 duration-700 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-gray-100 rounded-full" role="menuitem" tabindex="-1" id="menu-item-2">Mapping</a>
+                            <a href="https://teefodee.com/" target="blank" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition delay-150 duration-700 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-gray-100 rounded-full" role="menuitem" tabindex="-1" id="menu-item-3">E-Learning</a>
+
 
 
                         
@@ -614,6 +616,8 @@
                                 <a href="{{route('contact')}}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition delay-150 duration-700 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-gray-100 rounded-full" role="menuitem" tabindex="-1" id="menu-item-1">Contact</a>
                                 <a href="https://teefodee.com/blog/" target="_blank" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition delay-150 duration-700 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-gray-100 rounded-full" role="menuitem" tabindex="-1" id="menu-item-2">Blog</a>
                                 <a href="{{ route('faqs') }}" target="_blank" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition delay-150 duration-700 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-gray-100 rounded-full" role="menuitem" tabindex="-1" id="menu-item-3">FAQs</a>
+                                <a href="{{route('contact')}}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition delay-150 duration-700 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-gray-100 rounded-full" role="menuitem" tabindex="-1" id="menu-item-1">Services</a>
+
 
                                
                               </div>
