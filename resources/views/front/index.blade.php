@@ -70,84 +70,78 @@
 
 <div class="w-full py-16 flex justify-center">
   <div class="flex justify-around items-center gap-4 w-[90%] overflow-x-auto">
-      
-      <!-- Counter Items -->
-      <div class="glass p-4 w-24 text-center opacity-0 transform scale-90 transition-all duration-500 counter-box">
-          <h2 class="text-3xl font-bold neon counter" data-target="999">0</h2>
+      <div class="glass p-4 w-28 text-center transition-all duration-500 counter-box opacity-0 transform scale-95">
+          <h2 class="text-xl lg:text-2xl font-bold neon counter" data-target="999">0</h2>
           <p class="text-sm text-gray-900 mt-1">Consultancy Areas</p>
       </div>
 
-      <div class="glass p-4 w-24 text-center opacity-0 transform scale-90 transition-all duration-500 counter-box">
-          <h2 class="text-3xl font-bold neon counter" data-target="85">0</h2>
+      <div class="glass p-4 w-28 text-center transition-all duration-500 counter-box opacity-0 transform scale-95">
+          <h2 class="text-xl lg:text-2xl font-bold neon counter" data-target="85">0</h2>
           <p class="text-sm text-gray-900 mt-1">Clients</p>
       </div>
 
-      <div class="glass p-4 w-24 text-center opacity-0 transform scale-90 transition-all duration-500 counter-box">
-          <h2 class="text-3xl font-bold neon counter" data-target="10">0</h2>
+      <div class="glass p-4 w-28 text-center transition-all duration-500 counter-box opacity-0 transform scale-95">
+          <h2 class="text-xl lg:text-2xl font-bold neon counter" data-target="10">0</h2>
           <p class="text-sm text-gray-900 mt-1">Awards</p>
       </div>
 
-      <div class="glass p-4 w-24 text-center opacity-0 transform scale-90 transition-all duration-500 counter-box">
-          <h2 class="text-3xl font-bold neon counter" data-target="50">0</h2>
+      <div class="glass p-4 w-28 text-center transition-all duration-500 counter-box opacity-0 transform scale-95">
+          <h2 class="text-xl lg:text-2xl font-bold neon counter" data-target="50">0</h2>
           <p class="text-sm text-gray-900 mt-1">Employees</p>
       </div>
 
-      <div class="glass p-4 w-24 text-center opacity-0 transform scale-90 transition-all duration-500 counter-box">
-          <h2 class="text-3xl font-bold neon counter" data-target="15">0</h2>
+      <div class="glass p-4 w-28 text-center transition-all duration-500 counter-box opacity-0 transform scale-95">
+          <h2 class="text-xl lg:text-2xl font-bold neon counter" data-target="15">0</h2>
           <p class="text-sm text-gray-900 mt-1">Countries</p>
       </div>
 
-      <div class="glass p-4 w-24 text-center opacity-0 transform scale-90 transition-all duration-500 counter-box">
-          <h2 class="text-3xl font-bold neon counter" data-target="5">0</h2>
+      <div class="glass p-4 w-28 text-center transition-all duration-500 counter-box opacity-0 transform scale-95">
+          <h2 class="text-xl lg:text-2xl font-bold neon counter" data-target="5">0</h2>
           <p class="text-sm text-gray-900 mt-1">Offices</p>
       </div>
-
   </div>
 </div>
 
 <script>
   function startCounting() {
       const counters = document.querySelectorAll(".counter");
-
       counters.forEach(counter => {
           let target = +counter.getAttribute("data-target");
           let count = 0;
-          let increment = Math.ceil(target / 100);
+          let increment = Math.ceil(target / 80);
 
           function updateCounter() {
               if (count < target) {
                   count += increment;
                   counter.textContent = count;
-                  setTimeout(updateCounter, 20);
+                  setTimeout(updateCounter, 12);
               } else {
                   counter.textContent = target + "+";
               }
           }
-
           updateCounter();
       });
   }
 
   function resetAnimation() {
       const counterBoxes = document.querySelectorAll(".counter-box");
-
       counterBoxes.forEach(box => {
+          box.style.transition = "opacity 0.3s ease-in-out, transform 0.3s ease-in-out";
           box.classList.remove("opacity-100", "scale-100");
-          box.classList.add("opacity-0", "scale-90");
+          box.classList.add("opacity-0", "scale-95");
       });
-
       setTimeout(() => {
           counterBoxes.forEach(box => {
-              box.classList.remove("opacity-0", "scale-90");
+              box.style.transition = "opacity 0.5s ease-out, transform 0.5s ease-out";
+              box.classList.remove("opacity-0", "scale-95");
               box.classList.add("opacity-100", "scale-100");
           });
-
           startCounting();
       }, 300);
   }
 
-  // Restart animation on every scroll
-  window.addEventListener("scroll", () => {
+  // Trigger animation on page load
+  window.addEventListener('load', () => {
       resetAnimation();
   });
 </script>
