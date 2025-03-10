@@ -308,4 +308,49 @@
     }, 4000); // Change slide every 4 seconds
   </script>
 
+
+<section class="py-16 bg-gray-100">
+  <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-semibold mb-8">Our Previous Clients</h2>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6 justify-items-center">
+
+          <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+              <img src="logos/kpalogo.jpg" alt="Client 1 Logo" class="max-h-16 max-w-full object-contain">
+          </div>
+
+          <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+              <img src="logos/enplogo.jpg" alt="Client 2 Logo" class="max-h-16 max-w-full object-contain">
+          </div>
+
+          <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+              <img src="client-logo-3.png" alt="Client 3 Logo" class="max-h-16 max-w-full object-contain">
+          </div>
+
+          <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+              <img src="client-logo-4.png" alt="Client 4 Logo" class="max-h-16 max-w-full object-contain">
+          </div>
+
+          <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+              <img src="client-logo-5.png" alt="Client 5 Logo" class="max-h-16 max-w-full object-contain">
+          </div>
+
+          <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+              <img src="client-logo-6.png" alt="Client 6 Logo" class="max-h-16 max-w-full object-contain">
+          </div>
+
+          <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+            <img src="client-logo-5.png" alt="Client 5 Logo" class="max-h-16 max-w-full object-contain">
+        </div>
+
+        <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+            <img src="client-logo-6.png" alt="Client 6 Logo" class="max-h-16 max-w-full object-contain">
+        </div>
+        
+
+          </div>
+  </div>
+</section>
+
 @endsection
+
