@@ -148,124 +148,145 @@
 
 <section class="bg-gray-100 py-16">
   <div class="container mx-auto px-4">
-    <h2 class="text-3xl font-semibold text-gray-800 mb-6 text-center">Courses</h2>
-    <p class="text-gray-600 text-center mb-8">
-      Discover a wide range of courses crafted to enhance your skills and accelerate your career.
-    </p>
+      <h2 class="text-3xl font-semibold text-gray-800 mb-6 text-center">Courses</h2>
+      <p class="text-gray-600 text-center mb-8">
+          Discover a wide range of courses crafted to enhance your skills and accelerate your career.
+      </p>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-      <a
-        href="/software-tech-courses"
-        class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 hover:bg-blue-500"
+      <div class="flex flex-wrap justify-center gap-6">
+          <a
+              href="/software-tech-courses"
+              class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 hover:bg-blue-500 w-80"
+          >
+              <h3 class="text-xl font-semibold text-gray-800 mb-4">Software and Tech</h3>
+              <p class="text-gray-600">
+                  Explore courses in programming, web development, cybersecurity, and more.
+              </p>
+          </a>
+          <a
+          href="/software-tech-courses"
+          class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 hover:bg-blue-500 w-80"
       >
-        <h3 class="text-xl font-semibold text-gray-800 mb-4">Software and Tech</h3>
-        <p class="text-gray-600">
+          <h3 class="text-xl font-semibold text-gray-800 mb-4">Software and Tech</h3>
+          <p class="text-gray-600">
+              Explore courses in programming, web development, cybersecurity, and more.
+          </p>
+      </a>
+      <a
+      href="/software-tech-courses"
+      class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 hover:bg-blue-500 w-80"
+  >
+      <h3 class="text-xl font-semibold text-gray-800 mb-4">Software and Tech</h3>
+      <p class="text-gray-600">
           Explore courses in programming, web development, cybersecurity, and more.
-        </p>
-      </a>
+      </p>
+  </a>
 
-      <a
-        href="/ecommerce-courses"
-        class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 hover:bg-blue-500"
-      >
-        <h3 class="text-xl font-semibold text-gray-800 mb-4">E-Commerce</h3>
-        <p class="text-gray-600">
-          Learn how to build and manage successful online stores and businesses.
-        </p>
-      </a>
+          <a
+              href="/ecommerce-courses"
+              class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 hover:bg-blue-500 w-80"
+          >
+              <h3 class="text-xl font-semibold text-gray-800 mb-4">E-Commerce</h3>
+              <p class="text-gray-600">
+                  Learn how to build and manage successful online stores and businesses.
+              </p>
+          </a>
 
-      <a
-        href="/elearning-courses"
-        class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 hover:bg-blue-500"
-      >
-        <h3 class="text-xl font-semibold text-gray-800 mb-4">E-Learning</h3>
-        <p class="text-gray-600">
-          Discover how to create and deliver engaging online educational content.
-        </p>
-      </a>
+          <a
+              href="/elearning-courses"
+              class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 hover:bg-blue-500 w-80"
+          >
+              <h3 class="text-xl font-semibold text-gray-800 mb-4">E-Learning</h3>
+              <p class="text-gray-600">
+                  Discover how to create and deliver engaging online educational content.
+              </p>
+          </a>
 
-      <a
-        href="/data-services-courses"
-        class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 hover:bg-blue-500"
-      >
-        <h3 class="text-xl font-semibold text-gray-800 mb-4">Data Services</h3>
-        <p class="text-gray-600">
-          Gain expertise in data analytics, data science, and database management.
-        </p>
-      </a>
-    </div>
+          <a
+              href="/data-services-courses"
+              class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 hover:bg-blue-500 w-80"
+          >
+              <h3 class="text-xl font-semibold text-gray-800 mb-4">Data Services</h3>
+              <p class="text-gray-600">
+                  Gain expertise in data analytics, data science, and database management.
+              </p>
+          </a>
+      </div>
   </div>
 </section>
 
 
 <section class="bg-gray-100 py-10">
   <div class="container mx-auto px-4">
-    <h2 class="text-3xl font-semibold text-gray-800 mb-8 text-center">Our Services</h2>
+      <h2 class="text-3xl font-semibold text-gray-800 mb-8 text-center">Our Services</h2>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-      <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
-        <img src="images/0x0.webp" alt="Service 1" class="w-full h-36 object-cover object-center">
-        <div class="p-4">
-          <h3 class="text-lg font-semibold text-gray-800 mb-2">Web Development</h3>
-          <p class="text-gray-600 text-sm">
-            We build responsive and scalable websites tailored to your business needs.
-          </p>
-          <a href="/web-development" class="mt-2 inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 text-sm">Learn More</a>
-        </div>
-      </div>
+      <div class="flex flex-wrap justify-center gap-6">
+          <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 w-80">
+              <img src="images/0x0.webp" alt="Service 1" class="w-full h-36 object-cover object-center">
+              <div class="p-4">
+                  <h3 class="text-lg font-semibold text-gray-800 mb-2">Web Development</h3>
+                  <p class="text-gray-600 text-sm">
+                      We build responsive and scalable websites tailored to your business needs.
+                  </p>
+                  <a href="/web-development" class="mt-2 inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 text-sm">Learn More</a>
+              </div>
+          </div>
 
-      <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
-        <img src="images/0x0.webp" alt="Service 2" class="w-full h-36 object-cover object-center">
-        <div class="p-4">
-          <h3 class="text-lg font-semibold text-gray-800 mb-2">Digital Marketing</h3>
-          <p class="text-gray-600 text-sm">
-            Boost your online presence and reach your target audience with our digital marketing strategies.
-          </p>
-          <a href="/digital-marketing" class="mt-2 inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 text-sm">Learn More</a>
-        </div>
-      </div>
+          <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 w-80">
+              <img src="images/0x0.webp" alt="Service 2" class="w-full h-36 object-cover object-center">
+              <div class="p-4">
+                  <h3 class="text-lg font-semibold text-gray-800 mb-2">Digital Marketing</h3>
+                  <p class="text-gray-600 text-sm">
+                      Boost your online presence and reach your target audience with our digital marketing strategies.
+                  </p>
+                  <a href="/digital-marketing" class="mt-2 inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 text-sm">Learn More</a>
+              </div>
+          </div>
 
-      <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
-        <img src="images/0x0.webp" alt="Service 3" class="w-full h-36 object-cover object-center">
-        <div class="p-4">
-          <h3 class="text-lg font-semibold text-gray-800 mb-2">Data Analytics</h3>
-          <p class="text-gray-600 text-sm">
-            Gain valuable insights from your data to make informed business decisions.
-          </p>
-          <a href="/data-analytics" class="mt-2 inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 text-sm">Learn More</a>
-        </div>
+          <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 w-80">
+              <img src="images/0x0.webp" alt="Service 3" class="w-full h-36 object-cover object-center">
+              <div class="p-4">
+                  <h3 class="text-lg font-semibold text-gray-800 mb-2">Data Analytics</h3>
+                  <p class="text-gray-600 text-sm">
+                      Gain valuable insights from your data to make informed business decisions.
+                  </p>
+                  <a href="/data-analytics" class="mt-2 inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 text-sm">Learn More</a>
+              </div>
+          </div>
+
+          <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 w-80">
+              <img src="images/0x0.webp" alt="Service 4" class="w-full h-36 object-cover object-center">
+              <div class="p-4">
+                  <h3 class="text-lg font-semibold text-gray-800 mb-2">Cloud Solutions</h3>
+                  <p class="text-gray-600 text-sm">
+                      Scalable cloud solutions that will help your business grow.
+                  </p>
+                  <a href="/cloud-solutions" class="mt-2 inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 text-sm">Learn More</a>
+              </div>
+          </div>
+
+          <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 w-80">
+              <img src="images/0x0.webp" alt="Service 5" class="w-full h-36 object-cover object-center">
+              <div class="p-4">
+                  <h3 class="text-lg font-semibold text-gray-800 mb-2">Mobile App Development</h3>
+                  <p class="text-gray-600 text-sm">
+                      Mobile apps for IOS and Android.
+                  </p>
+                  <a href="/mobile-app-development" class="mt-2 inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 text-sm">Learn More</a>
+              </div>
+          </div>
+
+          <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 w-80">
+              <img src="images/0x0.webp" alt="Service 6" class="w-full h-36 object-cover object-center">
+              <div class="p-4">
+                  <h3 class="text-lg font-semibold text-gray-800 mb-2">SEO</h3>
+                  <p class="text-gray-600 text-sm">
+                      Increase your search engine ranking.
+                  </p>
+                  <a href="/seo" class="mt-2 inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 text-sm">Learn More</a>
+              </div>
+          </div>
       </div>
-      <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
-        <img src="images/0x0.webp" alt="Service 4" class="w-full h-36 object-cover object-center">
-        <div class="p-4">
-          <h3 class="text-lg font-semibold text-gray-800 mb-2">Cloud Solutions</h3>
-          <p class="text-gray-600 text-sm">
-            Scalable cloud solutions that will help your business grow.
-          </p>
-          <a href="/cloud-solutions" class="mt-2 inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 text-sm">Learn More</a>
-        </div>
-      </div>
-      <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
-        <img src="images/0x0.webp" alt="Service 5" class="w-full h-36 object-cover object-center">
-        <div class="p-4">
-          <h3 class="text-lg font-semibold text-gray-800 mb-2">Mobile App Development</h3>
-          <p class="text-gray-600 text-sm">
-            Mobile apps for IOS and Android.
-          </p>
-          <a href="/mobile-app-development" class="mt-2 inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 text-sm">Learn More</a>
-        </div>
-      </div>
-      <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
-        <img src="images/0x0.webp" alt="Service 6" class="w-full h-36 object-cover object-center">
-        <div class="p-4">
-          <h3 class="text-lg font-semibold text-gray-800 mb-2">SEO</h3>
-          <p class="text-gray-600 text-sm">
-            Increase your search engine ranking.
-          </p>
-          <a href="/seo" class="mt-2 inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 text-sm">Learn More</a>
-        </div>
-      </div>
-    </div>
   </div>
 </section>
 
@@ -313,42 +334,99 @@
   <div class="container mx-auto text-center">
       <h2 class="text-3xl font-semibold mb-8">Our Previous Clients</h2>
 
-      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6 justify-items-center">
-
-          <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+      <div class="flex flex-wrap justify-center gap-6 px-4"> <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-40">
               <img src="logos/kpalogo.jpg" alt="Client 1 Logo" class="max-h-16 max-w-full object-contain">
           </div>
 
-          <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-40">
               <img src="logos/enplogo.jpg" alt="Client 2 Logo" class="max-h-16 max-w-full object-contain">
           </div>
 
-          <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-40">
               <img src="client-logo-3.png" alt="Client 3 Logo" class="max-h-16 max-w-full object-contain">
           </div>
 
-          <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-40">
               <img src="client-logo-4.png" alt="Client 4 Logo" class="max-h-16 max-w-full object-contain">
           </div>
 
-          <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-40">
               <img src="client-logo-5.png" alt="Client 5 Logo" class="max-h-16 max-w-full object-contain">
           </div>
 
-          <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-40">
               <img src="client-logo-6.png" alt="Client 6 Logo" class="max-h-16 max-w-full object-contain">
           </div>
 
-          <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-            <img src="client-logo-5.png" alt="Client 5 Logo" class="max-h-16 max-w-full object-contain">
-        </div>
-
-        <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-            <img src="client-logo-6.png" alt="Client 6 Logo" class="max-h-16 max-w-full object-contain">
-        </div>
-        
-
+          <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-40">
+              <img src="client-logo-5.png" alt="Client 5 Logo" class="max-h-16 max-w-full object-contain">
           </div>
+
+          <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-40">
+              <img src="client-logo-6.png" alt="Client 6 Logo" class="max-h-16 max-w-full object-contain">
+          </div>
+
+      </div>
+  </div>
+</section>
+
+
+
+<section class="mt-16">
+  <h2 class="text-3xl font-bold mb-8 text-center">Testimonials</h2>
+  <div class="flex flex-wrap justify-center gap-8">
+      <div class="bg-white rounded-lg shadow-md p-6 text-center w-80">
+          <p class="text-gray-700 mb-4">"This blog has been incredibly helpful. I've learned so much!"</p>
+          <p class="font-semibold">- John Doe</p>
+      </div>
+      <div class="bg-white rounded-lg shadow-md p-6 text-center w-80">
+          <p class="text-gray-700 mb-4">"The content is always high-quality and engaging. Highly recommend!"</p>
+          <p class="font-semibold">- Jane Smith</p>
+      </div>
+      <div class="bg-white rounded-lg shadow-md p-6 text-center w-80">
+          <p class="text-gray-700 mb-4">"I love the variety of topics covered. Great blog!"</p>
+          <p class="font-semibold">- David Lee</p>
+      </div>
+  </div>
+
+  <div class="flex justify-center mt-8">
+      <a href="#" class="px-4 py-2 mx-1 bg-white border rounded hover:bg-gray-100">Previous</a>
+      <a href="#" class="px-4 py-2 mx-1 bg-blue-500 text-white rounded hover:bg-blue-600">Next</a>
+  </div>
+</section>
+
+<section class="py-16 bg-white">
+  <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-semibold mb-8">Our Affiliations</h2>
+      <p class="text-gray-600 mb-10">We are proud to be affiliated with these reputable organizations.</p>
+
+      <div class="flex flex-wrap justify-center gap-8">
+
+          <div class="flex flex-col items-center p-6 bg-gray-100 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-64">
+              <img src="affiliation-logo-1.png" alt="Affiliation 1 Logo" class="max-h-20 max-w-full object-contain mb-4">
+              <h3 class="text-lg font-semibold text-gray-800">Organization A</h3>
+              <p class="text-sm text-gray-600 mt-2">Brief description of the affiliation.</p>
+          </div>
+
+          <div class="flex flex-col items-center p-6 bg-gray-100 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-64">
+              <img src="affiliation-logo-2.png" alt="Affiliation 2 Logo" class="max-h-20 max-w-full object-contain mb-4">
+              <h3 class="text-lg font-semibold text-gray-800">Organization B</h3>
+              <p class="text-sm text-gray-600 mt-2">Brief description of the affiliation.</p>
+          </div>
+
+          <div class="flex flex-col items-center p-6 bg-gray-100 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-64">
+              <img src="affiliation-logo-3.png" alt="Affiliation 3 Logo" class="max-h-20 max-w-full object-contain mb-4">
+              <h3 class="text-lg font-semibold text-gray-800">Organization C</h3>
+              <p class="text-sm text-gray-600 mt-2">Brief description of the affiliation.</p>
+          </div>
+
+          <div class="flex flex-col items-center p-6 bg-gray-100 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-64">
+              <img src="affiliation-logo-4.png" alt="Affiliation 4 Logo" class="max-h-20 max-w-full object-contain mb-4">
+              <h3 class="text-lg font-semibold text-gray-800">Organization D</h3>
+              <p class="text-sm text-gray-600 mt-2">Brief description of the affiliation.</p>
+          </div>
+
+      </div>
   </div>
 </section>
 
