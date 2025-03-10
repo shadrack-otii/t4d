@@ -1,7 +1,7 @@
 <header class="@yield('position', 'sticky') top-0 left-0 bg-white w-full z-[99]">
 <!-- Topbar -->
 
-<div class="bg-blue-500 text-white text-sm py-2 px-4">
+<div class="bg-green-500 text-white text-sm py-2 px-4">
     <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
         <!-- Left section: Contact Info -->
         <div class="w-full text-sm flex flex-grow justify-center justify-evenly flex-wrap gap-4 mt-2 sm:mt-0">
@@ -692,7 +692,7 @@
         </div>
     </div>
     <!-- Blue line -->
-    <div class="bg-green-500 relative z-0 pt-1 @yield('display')" id="line"></div>
+    <div class="bg-blue-500 relative z-0 pt-1 @yield('display')" id="line"></div>
     <!-- search form -->
     <div  class="hidden" id="searchBar" >
 

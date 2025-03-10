@@ -1,4 +1,5 @@
-<footer class="bg-green-600 text-white text-sm py-6">
+<footer class="bg-green-600 text-white text-sm pt-6">
+    
     <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left">
         <!-- Logo & Newsletter Section -->
         <div class="flex flex-col items-center md:items-start space-y-6">
@@ -56,7 +57,7 @@
     </div>
     
     <!-- Copyright with Social Media Icons -->
-    <div class="bg-green-700 py-6 mt-6">
+    <div class="bg-green-700 py-4 mt-6">
         <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-10">
             <p class="text-center">© 2025 TechForDevelopment. All rights reserved.</p>
             <div class="flex space-x-6 text-lg">
@@ -68,4 +69,10 @@
             </div>
         </div>
     </div>
+
+    {{-- blue line --}}
+    <div class="bg-blue-700 p-3">
+      </div>
+      
+  
 </footer>

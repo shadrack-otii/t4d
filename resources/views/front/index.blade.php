@@ -148,7 +148,7 @@
 
 <section class="bg-gray-100 py-16">
   <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-semibold text-gray-800 mb-6 text-center">Courses</h2>
+      <h2 class="text-3xl font-semibold text-gray-800 mb-6 text-center">Course Categories</h2>
       <p class="text-gray-600 text-center mb-8">
           Discover a wide range of courses crafted to enhance your skills and accelerate your career.
       </p>
@@ -334,41 +334,42 @@
   <div class="container mx-auto text-center">
       <h2 class="text-3xl font-semibold mb-8">Our Previous Clients</h2>
 
-      <div class="flex flex-wrap justify-center gap-6 px-4"> <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-40">
-              <img src="logos/kpalogo.jpg" alt="Client 1 Logo" class="max-h-16 max-w-full object-contain">
+      <div class="flex flex-wrap justify-center gap-4 px-4">
+          <div class="p-3 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-28 h-28 flex items-center justify-center">
+              <img src="logos/kpalogo.jpg" alt="Client 1 Logo" class="max-h-20 max-w-full object-contain">
           </div>
 
-          <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-40">
-              <img src="logos/enplogo.jpg" alt="Client 2 Logo" class="max-h-16 max-w-full object-contain">
+          <div class="p-3 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-28 h-28 flex items-center justify-center">
+              <img src="logos/enplogo.jpg" alt="Client 2 Logo" class="max-h-20 max-w-full object-contain">
           </div>
 
-          <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-40">
-              <img src="client-logo-3.png" alt="Client 3 Logo" class="max-h-16 max-w-full object-contain">
+          <div class="p-3 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-28 h-28 flex items-center justify-center">
+              <img src="client-logo-3.png" alt="Client 3 Logo" class="max-h-20 max-w-full object-contain">
           </div>
 
-          <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-40">
-              <img src="client-logo-4.png" alt="Client 4 Logo" class="max-h-16 max-w-full object-contain">
+          <div class="p-3 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-28 h-28 flex items-center justify-center">
+              <img src="client-logo-4.png" alt="Client 4 Logo" class="max-h-20 max-w-full object-contain">
           </div>
 
-          <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-40">
-              <img src="client-logo-5.png" alt="Client 5 Logo" class="max-h-16 max-w-full object-contain">
+          <div class="p-3 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-28 h-28 flex items-center justify-center">
+              <img src="client-logo-5.png" alt="Client 5 Logo" class="max-h-20 max-w-full object-contain">
           </div>
 
-          <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-40">
-              <img src="client-logo-6.png" alt="Client 6 Logo" class="max-h-16 max-w-full object-contain">
+          <div class="p-3 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-28 h-28 flex items-center justify-center">
+              <img src="client-logo-6.png" alt="Client 6 Logo" class="max-h-20 max-w-full object-contain">
           </div>
 
-          <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-40">
-              <img src="client-logo-5.png" alt="Client 5 Logo" class="max-h-16 max-w-full object-contain">
+          <div class="p-3 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-28 h-28 flex items-center justify-center">
+              <img src="client-logo-5.png" alt="Client 5 Logo" class="max-h-20 max-w-full object-contain">
           </div>
 
-          <div class="p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-40">
-              <img src="client-logo-6.png" alt="Client 6 Logo" class="max-h-16 max-w-full object-contain">
+          <div class="p-3 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-28 h-28 flex items-center justify-center">
+              <img src="client-logo-6.png" alt="Client 6 Logo" class="max-h-20 max-w-full object-contain">
           </div>
-
       </div>
   </div>
 </section>
+
 
 
 
