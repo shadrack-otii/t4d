@@ -70,62 +70,7 @@
                     </li>
                 @endcan
                 
-                @can('view_courses')
-                <li>
-                    <a href="javascript:void(0);" class="menu-toggle">
-                        <i class="material-icons">class</i>
-                        <span>Sectors</span>
-                    </a>
-                    <ul class="ml-menu">
-                        @can('create_edit_course')
-                            <li>
-                                <a href="{{ route('backoffice.course.category.index') }}">
-                                    Sectors
-                                </a>
-                            </li>
-                            <li>
-                                <a href="{{ route('backoffice.course.create') }}">
-                                    Add Sector
-                                </a>
-                            </li>
-                        @endcan
-                        <li>
-                            <a href="{{ route('backoffice.course.index') }}">
-                                View Sectors
-                            </a>
-                        </li>
-                        @can('create_edit_course')
-                            <li>
-                                <a href="javascript:void(0);" class="menu-toggle">
-                                    Course Bundles
-                                </a>
-                                <ul class="ml-menu">
-                                    <li>
-                                        <a href="{{ route('backoffice.course.bundle.create') }}">Add Bundle</a>
-                                    </li>
-                                    <li>
-                                        <a href="{{ route('backoffice.course.bundle.index') }}">View Course Bundles</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        @endcan
-
-                        <li>
-                            <a href="javascript:void(0);" class="menu-toggle">
-                                Training Calendar
-                            </a>
-                            <ul class="ml-menu">
-                                <li>
-                                    <a href="{{ route('backoffice.course.calendar.create') }}">Add Calendar</a>
-                                </li>
-                                <li>
-                                    <a href="{{ route('backoffice.course.calendar.index') }}">View Calendar</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                @endcan
+            
 
                 @can('view_programs')
                     <li>
