@@ -1,57 +1,87 @@
 @extends('front.Projects.master')
 @section('content')
-<div class="relative w-full h-96 md:h-[500px] overflow-hidden">
-    <div class="absolute inset-0 flex transition-transform duration-500 ease-in-out" id="simple-slider">
-  
-      <div class="min-w-full h-full relative">
-        <img src="images/415907_1716558858.webp" alt="Nature" class="absolute inset-0 w-full h-full object-cover">
-        <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center p-8">
-          <div class="text-center text-white">
-            <h2 class="text-3xl md:text-4xl font-semibold mb-4">Explore Nature's Beauty</h2>
-            <p class="text-lg md:text-xl mb-6">Discover breathtaking landscapes and serene environments.</p>
-            <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Explore More</a>
-          </div>
-        </div>
-      </div>
-  
-      <div class="min-w-full h-full relative">
-        <img src="images/Service_4.webp" alt="City" class="absolute inset-0 w-full h-full object-cover">
-        <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center p-8">
-          <div class="text-center text-white">
-            <h2 class="text-3xl md:text-4xl font-semibold mb-4">Urban Adventures Await</h2>
-            <p class="text-lg md:text-xl mb-6">Experience the vibrant life of the city.</p>
-            <a href="#" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">Explore More</a>
-          </div>
-        </div>
-      </div>
-  
-      <div class="min-w-full h-full relative">
-        <img src="https://source.unsplash.com/1920x1080/?technology" alt="Technology" class="absolute inset-0 w-full h-full object-cover">
-        <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center p-8">
-          <div class="text-center text-white">
-            <h2 class="text-3xl md:text-4xl font-semibold mb-4">Innovate with Technology</h2>
-            <p class="text-lg md:text-xl mb-6">Dive into the world of innovation.</p>
-            <a href="#" class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded">Explore More</a>
-          </div>
-        </div>
-      </div>
-  
-    </div>
-  
-    <div class="absolute top-1/2 transform -translate-y-1/2 w-full flex justify-between px-4">
-      <button class="bg-gray-800 bg-opacity-50 text-white p-2 rounded-full" id="prev-btn">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-        </svg>
-      </button>
-      <button class="bg-gray-800 bg-opacity-50 text-white p-2 rounded-full" id="next-btn">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-        </svg>
-      </button>
-    </div>
 
-  </div>
+<section class="bg-gray-100 px-2 py-2">
+
+    <div class="relative w-full h-96 md:h-[500px] overflow-hidden rounded-lg">
+        <div class="absolute inset-0 flex transition-transform duration-500 ease-in-out" id="simple-slider">
+    
+            <div class="min-w-full h-full relative">
+                <img src="images/dataminingimage1.jpg" alt="Nature" class="absolute inset-0 w-full h-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-b from-black/60 to-black/80 flex items-center justify-center p-8">
+                    <div class="text-center text-white max-w-2xl">
+                        <h2 class="text-3xl md:text-4xl font-semibold mb-4 drop-shadow-lg">Data Training and Capacity Building</h2>
+                        <p class="text-lg md:text-xl mb-6 drop-shadow-lg">Achieve data excellence and stay ahead of the competition with tailored, expert-led training and capacity building in data collection, management, analysis, visualization, and mapping</p>
+                        <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-md">Explore More</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="min-w-full h-full relative">
+                <img src="images/dmimage2.webp" alt="City" class="absolute inset-0 w-full h-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-b from-black/60 to-black/80 flex items-center justify-center p-8">
+                    <div class="text-center text-white max-w-2xl">
+                        <h2 class="text-3xl md:text-4xl font-semibold mb-4 drop-shadow-lg">Digital Marketing Training and Capacity Building   
+                        </h2>
+                        <p class="text-lg md:text-xl mb-6 drop-shadow-lg">Amplify brand awareness, drive conversions, boost sales, and accelerate business growth with customized, expert-led training and capacity building in key digital marketing channels.</p>
+                        <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-md">Explore More</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="min-w-full h-full relative">
+                <img src="images/mdcimage.webp" alt="Technology" class="absolute inset-0 w-full h-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-b from-black/60 to-black/80 flex items-center justify-center p-8">
+                    <div class="text-center text-white max-w-2xl">
+                        <h2 class="text-3xl md:text-4xl font-semibold mb-4 drop-shadow-lg">Mobile Data Collection Consultancy. 
+                        </h2>
+                        <p class="text-lg md:text-xl mb-6 drop-shadow-lg">Attain peak efficiency and project success with the expert implementation of mobile data collection tools like ODK, KoBoToolBox, and SurveyCTO.</p>
+                        <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-md">Explore More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="min-w-full h-full relative">
+                <img src="images/mdcimage.webp" alt="Technology" class="absolute inset-0 w-full h-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-b from-black/60 to-black/80 flex items-center justify-center p-8">
+                    <div class="text-center text-white max-w-2xl">
+                        <h2 class="text-3xl md:text-4xl font-semibold mb-4 drop-shadow-lg">E-Learning System Development and Implementation.
+                        </h2>
+                        <p class="text-lg md:text-xl mb-6 drop-shadow-lg">Secure the best training platform with powerful e-learning systems offering diverse training formats and flexible pathways that adapt to learners' evolving needs.</p>
+                        <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-md">Explore More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="min-w-full h-full relative">
+                <img src="images/dataminingimage1.jpg" alt="Nature" class="absolute inset-0 w-full h-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-b from-black/60 to-black/80 flex items-center justify-center p-8">
+                    <div class="text-center text-white max-w-2xl">
+                        <h2 class="text-3xl md:text-4xl font-semibold mb-4 drop-shadow-lg">Business Processes Automation Consultancy.
+                        </h2>
+                        <p class="text-lg md:text-xl mb-6 drop-shadow-lg">Hit your sales targets through expertly implemented automated workflows, cutting manual tasks and maximizing efficiency.</p>
+                        <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-md">Explore More</a>
+                    </div>
+                </div>
+            </div>
+            
+    
+        </div>
+    
+        <div class="absolute top-1/2 transform -translate-y-1/2 w-full flex justify-between px-4">
+            <button class="bg-gray-800 bg-opacity-50 text-white p-2 rounded-full" id="prev-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                </svg>
+            </button>
+            <button class="bg-gray-800 bg-opacity-50 text-white p-2 rounded-full" id="next-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+            </button>
+        </div>
+    
+    </div>
+ </section> 
 
   <style>
     /* Glassmorphism Effect */
@@ -148,7 +178,8 @@
 
 
 <section class="bg-gray-100 py-12 px-20">
-    <div class="container mx-auto px-4 lg:px-8"> <h2 class="text-2xl font-semibold text-center mb-6 text-gray-800">Explore Our Courses</h2>
+    <div class="container mx-auto px-4 lg:px-8">
+         <h2 class="text-2xl font-semibold text-center mb-6 text-gray-800">Explore Our Courses</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         <div class="bg-white rounded-md shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 mx-2"> <img src="https://source.unsplash.com/random/400x250/?coding" alt="Course Image" class="w-full h-32 object-cover">
           <div class="p-4">
@@ -404,7 +435,7 @@
     // Optional: Auto-slide
     setInterval(() => {
       showSlide(currentSlide + 1);
-    }, 25000); // Change slide every 25 seconds
+    }, 25000); // Change slide every  seconds
   </script>
 
 
