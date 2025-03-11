@@ -28,15 +28,15 @@ class FAQController extends Controller
     // }
     public function show($id = null)
     {
-        $faqs = null;
-        
-        if($id != null) $faqs = FAQ::where('tag', '=', $id)->get();
-        else $faqs = FAQ::all();
-
-        $faqts =  FAQ::distinct()->orderBy('tag')->get(['tag']);
-
-        return view('front/faqs/show', compact('faqs', 'faqts'));
+        if ($id !== null) {
+            $faqs = FAQ::where('id', $id)->get();
+        } else {
+            $faqs = FAQ::all();
+        }
+    
+        return view('front/faqs/show', compact('faqs'));
     }
+    
     // public function submitQuestion(Request $request)
     // {
     //     // Handle the question submission logic

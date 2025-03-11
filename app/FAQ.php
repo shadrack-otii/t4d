@@ -14,5 +14,6 @@ class FAQ extends Model
      *
      * @var array
      */
-    protected $fillable = ['title', 'tag', 'description', 'featured', 'slug'];
+    protected $fillable = ['title','description', 'featured', 'slug'];
+
 }
