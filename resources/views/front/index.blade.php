@@ -404,7 +404,7 @@
     // Optional: Auto-slide
     setInterval(() => {
       showSlide(currentSlide + 1);
-    }, 4000); // Change slide every 4 seconds
+    }, 8000); // Change slide every 4 seconds
   </script>
 
 
