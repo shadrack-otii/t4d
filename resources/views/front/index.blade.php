@@ -146,6 +146,84 @@
   });
 </script>
 
+
+<section class="bg-gray-100 py-12 px-20">
+    <div class="container mx-auto px-4 lg:px-8"> <h2 class="text-2xl font-semibold text-center mb-6 text-gray-800">Explore Our Courses</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div class="bg-white rounded-md shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 mx-2"> <img src="https://source.unsplash.com/random/400x250/?coding" alt="Course Image" class="w-full h-32 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold mb-1 text-gray-800">Web Dev</h3>
+            <p class="text-sm text-gray-600 mb-2">Build apps.</p>
+            <span class="text-sm font-semibold text-blue-600">$199</span>
+          </div>
+        </div>
+  
+        <div class="bg-white rounded-md shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 mx-2">
+          <img src="https://source.unsplash.com/random/400x250/?design" alt="Course Image" class="w-full h-32 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold mb-1 text-gray-800">UI/UX</h3>
+            <p class="text-sm text-gray-600 mb-2">User design.</p>
+            <span class="text-sm font-semibold text-blue-600">$149</span>
+          </div>
+        </div>
+  
+        <div class="bg-white rounded-md shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 mx-2">
+          <img src="https://source.unsplash.com/random/400x250/?marketing" alt="Course Image" class="w-full h-32 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold mb-1 text-gray-800">Marketing</h3>
+            <p class="text-sm text-gray-600 mb-2">Digital ads.</p>
+            <span class="text-sm font-semibold text-blue-600">$249</span>
+          </div>
+        </div>
+  
+        <div class="bg-white rounded-md shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 mx-2">
+          <img src="https://source.unsplash.com/random/400x250/?python" alt="Course Image" class="w-full h-32 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold mb-1 text-gray-800">Python</h3>
+            <p class="text-sm text-gray-600 mb-2">Programming.</p>
+            <span class="text-sm font-semibold text-blue-600">$299</span>
+          </div>
+        </div>
+  
+        <div class="bg-white rounded-md shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 mx-2">
+          <img src="https://source.unsplash.com/random/400x250/?photography" alt="Course Image" class="w-full h-32 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold mb-1 text-gray-800">Photo</h3>
+            <p class="text-sm text-gray-600 mb-2">Capture moments.</p>
+            <span class="text-sm font-semibold text-blue-600">$179</span>
+          </div>
+        </div>
+  
+        <div class="bg-white rounded-md shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 mx-2">
+          <img src="https://source.unsplash.com/random/400x250/?data" alt="Course Image" class="w-full h-32 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold mb-1 text-gray-800">Data</h3>
+            <p class="text-sm text-gray-600 mb-2">Analyze data.</p>
+            <span class="text-sm font-semibold text-blue-600">$229</span>
+          </div>
+        </div>
+  
+        <div class="bg-white rounded-md shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 mx-2">
+          <img src="https://source.unsplash.com/random/400x250/?writing" alt="Course Image" class="w-full h-32 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold mb-1 text-gray-800">Writing</h3>
+            <p class="text-sm text-gray-600 mb-2">Creative prose.</p>
+            <span class="text-sm font-semibold text-blue-600">$169</span>
+          </div>
+        </div>
+  
+        <div class="bg-white rounded-md shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 mx-2">
+          <img src="https://source.unsplash.com/random/400x250/?music" alt="Course Image" class="w-full h-32 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold mb-1 text-gray-800">Music</h3>
+            <p class="text-sm text-gray-600 mb-2">Play an instrument.</p>
+            <span class="text-sm font-semibold text-blue-600">$189</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 <section class="bg-gray-100 py-16">
   <div class="container mx-auto px-4">
       <h2 class="text-3xl font-semibold text-gray-800 mb-6 text-center">Course Categories</h2>
