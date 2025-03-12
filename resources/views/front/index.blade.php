@@ -76,7 +76,7 @@
                     </div>
                 </div>
                 <div class="md:w-1/2 h-full relative">
-                    <img src="images/bpa.webp" alt="Nature" class="absolute inset-0 w-full h-full object-cover rounded-lg">
+                    <img src="images/bpa1.webp" alt="Nature" class="absolute inset-0 w-full h-full object-cover rounded-lg">
                 </div>
             </div>
     
