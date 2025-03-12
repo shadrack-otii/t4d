@@ -9,8 +9,10 @@
             <div class="min-w-full flex md:flex-row">
                 <div class="md:w-1/2 flex items-center justify-center p-8">
                     <div class="text-center text-black max-w-2xl bg-white p-6 rounded-lg shadow-md">
-                        <h2 class="text-3xl md:text-4xl font-semibold mb-4 drop-shadow-lg">Data Training and Capacity Building</h2>
-                        <p class="text-lg md:text-xl mb-6 drop-shadow-lg">Achieve data excellence and stay ahead of the competition with tailored, expert-led training and capacity building in data collection, management, analysis, visualization, and mapping</p>
+                        <h2 class="bg-green-500 text-white text-xl md:text-2xl font-semibold mb-4 drop-shadow-lg p-2 rounded-lg">
+                            Data Training and Capacity Building
+                        </h2>                        
+                        <p class="text-lg [font-size:18px] mb-6 drop-shadow-lg">Unlock real-time insights and gain a competitive edge with expert-led, tailored training in data collection, management, analysis, visualization, and mapping.</p>
                         <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-md">Explore More</a>
                     </div>
                 </div>
@@ -22,8 +24,10 @@
             <div class="min-w-full flex md:flex-row">
                 <div class="md:w-1/2 flex items-center justify-center p-8">
                     <div class="text-center text-black max-w-2xl bg-white p-6 rounded-lg shadow-md">
-                        <h2 class="text-3xl md:text-4xl font-semibold mb-4 drop-shadow-lg">Digital Marketing Training and Capacity Building</h2>
-                        <p class="text-lg md:text-xl mb-6 drop-shadow-lg">Amplify brand awareness, drive conversions, boost sales, and accelerate business growth with customized, expert-led training and capacity building in key digital marketing channels.</p>
+                        <h2 class="bg-green-500 text-white text-xl md:text-2xl font-semibold mb-4 drop-shadow-lg p-2 rounded-lg">
+                            Digital Marketing Training and Capacity Building
+                        </h2>
+                         <p class="text-lg [font-size:18px] mb-6 drop-shadow-lg">Amplify brand awareness, drive conversions, boost sales, and grow your business with customized, expert-led training in key digital marketing channels.</p>
                         <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-md">Explore More</a>
                     </div>
                 </div>
@@ -35,8 +39,10 @@
             <div class="min-w-full flex md:flex-row">
                 <div class="md:w-1/2 flex items-center justify-center p-8">
                     <div class="text-center text-black max-w-2xl bg-white p-6 rounded-lg shadow-md">
-                        <h2 class="text-3xl md:text-4xl font-semibold mb-4 drop-shadow-lg">Mobile Data Collection Consultancy</h2>
-                        <p class="text-lg md:text-xl mb-6 drop-shadow-lg">Attain peak efficiency and project success with the expert implementation of mobile data collection tools like ODK, KoBoToolBox, and SurveyCTO.</p>
+                        <h2 class="bg-green-500 text-white text-xl md:text-2xl font-semibold mb-4 drop-shadow-lg p-2 rounded-lg">
+                            Mobile Data Collection Consultancy
+                        </h2>
+                         <p class="text-lg [font-size:18px] mb-6 drop-shadow-lg">Attain peak efficiency and project success through the expert implementation of mobile data collection tools like ODK, KoBoToolBox, and SurveyCTO.</p>
                         <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-md">Explore More</a>
                     </div>
                 </div>
@@ -48,38 +54,41 @@
             <div class="min-w-full flex md:flex-row">
                 <div class="md:w-1/2 flex items-center justify-center p-8">
                     <div class="text-center text-black max-w-2xl bg-white p-6 rounded-lg shadow-md">
-                        <h2 class="text-3xl md:text-4xl font-semibold mb-4 drop-shadow-lg">E-Learning System Development and Implementation.</h2>
-                        <p class="text-lg md:text-xl mb-6 drop-shadow-lg">Secure the best training platform with powerful e-learning systems offering diverse training formats and flexible pathways that adapt to learners' evolving needs.</p>
+                        <h2 class="bg-green-500 text-white text-xl md:text-2xl font-semibold mb-4 drop-shadow-lg p-2 rounded-lg">
+                            E-Learning System Development and Implementation</h2>   
+                         <p class="text-lg [font-size:18px] mb-6 drop-shadow-lg">Secure the best training platform with flexible e-learning systems offering diverse training formats and pathways that adapt to learners' evolving needs.</p>
                         <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-md">Explore More</a>
                     </div>
                 </div>
                 <div class="md:w-1/2 h-full relative">
-                    <img src="images/mdcimage.webp" alt="Technology" class="absolute inset-0 w-full h-full object-cover rounded-lg">
+                    <img src="images/elearning.webp" alt="Technology" class="absolute inset-0 w-full h-full object-cover rounded-lg">
                 </div>
             </div>
     
             <div class="min-w-full flex md:flex-row">
                 <div class="md:w-1/2 flex items-center justify-center p-8">
                     <div class="text-center text-black max-w-2xl bg-white p-6 rounded-lg shadow-md">
-                        <h2 class="text-3xl md:text-4xl font-semibold mb-4 drop-shadow-lg">Business Processes Automation Consultancy.</h2>
-                        <p class="text-lg md:text-xl mb-6 drop-shadow-lg">Hit your sales targets through expertly implemented automated workflows, cutting manual tasks and maximizing efficiency.</p>
+                        <h2 class="bg-green-500 text-white text-xl md:text-2xl font-semibold mb-4 drop-shadow-lg p-2 rounded-lg">
+                            Business Processes Automation Consultancy
+                        </h2>
+                        <p class="text-lg [font-size:18px] mb-6 drop-shadow-lg">Hit your sales targets through automated workflows and streamlined tasks, maximizing efficiency every step of the way.</p>
                         <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-md">Explore More</a>
                     </div>
                 </div>
                 <div class="md:w-1/2 h-full relative">
-                    <img src="images/dataminingimage1.jpg" alt="Nature" class="absolute inset-0 w-full h-full object-cover rounded-lg">
+                    <img src="images/bpa.webp" alt="Nature" class="absolute inset-0 w-full h-full object-cover rounded-lg">
                 </div>
             </div>
     
         </div>
     
         <div class="absolute top-1/2 transform -translate-y-1/2 w-full flex justify-between px-4">
-            <button class="bg-gray-800 bg-opacity-50 text-white p-2 rounded-full" id="prev-btn">
+            <button class="bg-blue-500 bg-opacity-50 text-white p-2 rounded-full" id="prev-btn">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
                 </svg>
             </button>
-            <button class="bg-gray-800 bg-opacity-50 text-white p-2 rounded-full" id="next-btn">
+            <button class="bg-blue-500 bg-opacity-50 text-white p-2 rounded-full" id="next-btn">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                 </svg>
@@ -104,7 +113,7 @@
     }
 </style>
 
-<div class="w-full py-16 flex justify-center">
+<div class="w-full py-16 flex justify-center bg-gray-100">
   <div class="flex justify-around items-center gap-4 w-[90%] overflow-x-auto">
       <div class="glass p-4 w-28 text-center transition-all duration-500 counter-box opacity-0 transform scale-95">
           <h2 class="text-xl lg:text-2xl font-bold neon counter" data-target="999">0</h2>
