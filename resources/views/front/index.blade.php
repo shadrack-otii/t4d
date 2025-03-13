@@ -25,7 +25,7 @@
                 <!-- Image Section -->
                 <div class="md:w-2/5 h-96 md:h-auto relative">
                     <div class="absolute inset-0 bg-black/30 rounded-lg"></div>
-                    <img src="images/dataminingimage1.jpg" alt="Technology" class="absolute inset-0 w-full h-full object-cover rounded-lg">
+                    <img src="images/slider.webp" alt="Technology" class="absolute inset-0 w-full h-full object-fit rounded-lg">
                 </div>
             </div>
             
@@ -34,7 +34,7 @@
                 <div class="md:w-1/2 flex items-center justify-center p-8">
                     <div class="text-center text-black max-w-2xl bg-white p-6 rounded-lg shadow-md">
                         <h2 class="bg-green-500 text-white text-xl md:text-2xl font-semibold mb-4 drop-shadow-lg p-2 rounded-lg">
-                            Data Training and Capacity Building
+                            Data
                         </h2>                        
                         <p class="text-lg [font-size:18px] mb-6 drop-shadow-lg">Unlock real-time insights and gain a competitive edge with expert-led, tailored training in data collection, management, analysis, visualization, and mapping.</p>
                         <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-md">Explore More</a>
@@ -49,7 +49,7 @@
                 <div class="md:w-1/2 flex items-center justify-center p-8">
                     <div class="text-center text-black max-w-2xl bg-white p-6 rounded-lg shadow-md">
                         <h2 class="bg-green-500 text-white text-xl md:text-2xl font-semibold mb-4 drop-shadow-lg p-2 rounded-lg">
-                            Digital Marketing Training and Capacity Building
+                            Digital Marketing 
                         </h2>
                          <p class="text-lg [font-size:18px] mb-6 drop-shadow-lg">Amplify brand awareness, drive conversions, boost sales, and grow your business with customized, expert-led training in key digital marketing channels.</p>
                         <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-md">Explore More</a>
@@ -79,7 +79,7 @@
                 <div class="md:w-1/2 flex items-center justify-center p-8">
                     <div class="text-center text-black max-w-2xl bg-white p-6 rounded-lg shadow-md">
                         <h2 class="bg-green-500 text-white text-xl md:text-2xl font-semibold mb-4 drop-shadow-lg p-2 rounded-lg">
-                            E-Learning</h2>   
+                            eLearning</h2>   
                          <p class="text-lg [font-size:18px] mb-6 drop-shadow-lg">Secure the best training platform with flexible e-learning systems offering diverse training formats and pathways that adapt to learners' evolving needs.</p>
                         <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-md">Explore More</a>
                     </div>
@@ -93,7 +93,7 @@
                 <div class="md:w-1/2 flex items-center justify-center p-8">
                     <div class="text-center text-black max-w-2xl bg-white p-6 rounded-lg shadow-md">
                         <h2 class="bg-green-500 text-white text-xl md:text-2xl font-semibold mb-4 drop-shadow-lg p-2 rounded-lg">
-                            Business Processes Automation Consultancy
+                            Business Processes Automation
                         </h2>
                         <p class="text-lg [font-size:18px] mb-6 drop-shadow-lg">Hit your sales targets through automated workflows and streamlined tasks, maximizing efficiency every step of the way.</p>
                         <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-md">Explore More</a>
