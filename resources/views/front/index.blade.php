@@ -51,7 +51,7 @@
                         <h2 class="bg-green-500 text-white text-xl md:text-2xl font-semibold mb-4 drop-shadow-lg p-2 rounded-lg">
                             Digital Marketing 
                         </h2>
-                         <p class="text-lg [font-size:18px] mb-6 drop-shadow-lg">Amplify brand awareness, drive conversions, boost sales, and grow your business with customized, expert-led training in key digital marketing channels.</p>
+                         <p class="text-lg [font-size:18px] mb-6 drop-shadow-lg">Amplify your brand and generate more leads through our tailor-made digital marketing solutions.</p>
                         <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-md">Explore More</a>
                     </div>
                 </div>
@@ -387,85 +387,81 @@
         </div>
     </div>
     <div class="flex flex-wrap justify-center gap-5">
-        <!-- Card Start -->
-        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 w-80 m-4 p-6 space-y-4">
-            <img src="images/0x0.webp" alt="Service 1" class="w-full h-40 object-cover object-center rounded-lg">
-            <div class="space-y-3">
-                <h3 class="text-xl font-semibold text-gray-800">Data</h3>
+        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 w-80 m-4 p-6 flex flex-col">
+            <img src="images/data.webp" alt="Service 1" class="w-full h-40 object-cover object-center rounded-lg">
+            <div class="space-y-3 flex-grow">
+                <h3 class="text-xl font-semibold text-gray-800 py-2">Data</h3>
                 <p class="text-gray-700 text-base">
                     Outpace the competition through expert assistance and training in data collection, management, analysis, visualization, and mapping.
                 </p>
-                <a href="/web-development" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-5 rounded-lg transition-colors duration-300 text-base">
-                    Learn More
-                </a>
             </div>
+            <a href="/web-development" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 text-base mt-4 self-start">
+                Learn More
+            </a>
         </div>
-        <!-- Card End -->
-    
-        <!-- Repeat for all other cards -->
-        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 w-80 m-4 p-6 space-y-4">
-            <img src="images/0x0.webp" alt="Service 2" class="w-full h-40 object-cover object-center rounded-lg">
-            <div class="space-y-3">
-                <h3 class="text-xl font-semibold text-gray-800">Digital Marketing</h3>
+        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 w-80 m-4 p-6 flex flex-col">
+            <img src="images/digitalmarketing.webp" alt="Service 2" class="w-full h-40 object-cover object-center rounded-lg">
+            <div class="space-y-3 flex-grow">
+                <h3 class="text-xl font-semibold text-gray-800 py-2">Digital Marketing</h3>
                 <p class="text-gray-700 text-base">
-                    Amplify brand awareness, drive conversions, boost sales, and accelerate business growth with expert-led training in key digital marketing channels.
+                    Amplify your brand and generate more leads through our tailor-made digital marketing solutions.
                 </p>
-                <a href="/digital-marketing" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-5 rounded-lg transition-colors duration-300 text-base">
-                    Learn More
-                </a>
             </div>
+            <a href="/digital-marketing" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 text-base mt-4 self-start">
+                Learn More
+            </a>
         </div>
     
-        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 w-80 m-4 p-6 space-y-4">
-            <img src="images/0x0.webp" alt="Service 3" class="w-full h-40 object-cover object-center rounded-lg">
-            <div class="space-y-3">
-                <h3 class="text-xl font-semibold text-gray-800">Data Collection</h3>
+        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 w-80 m-4 p-6 flex flex-col">
+            <img src="images/datacollection.webp" alt="Service 3" class="w-full h-40 object-cover object-center rounded-lg">
+            <div class="space-y-3 flex-grow">
+                <h3 class="text-xl font-semibold text-gray-800 py-2">Data Collection</h3>
                 <p class="text-gray-700 text-base">
                     Attain peak efficiency with expert implementation of mobile data collection tools like ODK, KoBoToolBox, and SurveyCTO.
                 </p>
-                <a href="/data-analytics" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-5 rounded-lg transition-colors duration-300 text-base">
-                    Learn More
-                </a>
             </div>
+            <a href="/data-analytics" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 text-base mt-4 self-start">
+                Learn More
+            </a>
         </div>
     
-        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 w-80 m-4 p-6 space-y-4">
-            <img src="images/0x0.webp" alt="Service 4" class="w-full h-40 object-cover object-center rounded-lg">
-            <div class="space-y-3">
-                <h3 class="text-xl font-semibold text-gray-800">E-Learning</h3>
+        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 w-80 m-4 p-6 flex flex-col">
+            <img src="images/elearnin.webp" alt="Service 4" class="w-full h-40 object-cover object-center rounded-lg">
+            <div class="space-y-3 flex-grow">
+                <h3 class="text-xl font-semibold text-gray-800 py-2">E-Learning</h3>
                 <p class="text-gray-700 text-base">
-                    Secure the best training platform with powerful e-learning systems offering diverse training formats and flexible pathways.
+                    Secure the best eLearning systems offering diverse training formats and flexible pathways that adapt to learners' evolving needs.
                 </p>
-                <a href="/cloud-solutions" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-5 rounded-lg transition-colors duration-300 text-base">
-                    Learn More
-                </a>
             </div>
+            <a href="/cloud-solutions" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 text-base mt-4 self-start">
+                Learn More
+            </a>
         </div>
     
-        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 w-80 m-4 p-6 space-y-4">
-            <img src="images/0x0.webp" alt="Service 5" class="w-full h-40 object-cover object-center rounded-lg">
-            <div class="space-y-3">
-                <h3 class="text-xl font-semibold text-gray-800">Business Processes Automation</h3>
+        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 w-80 m-4 p-6 flex flex-col">
+            <img src="images/automation.webp" alt="Service 5" class="w-full h-40 object-cover object-center rounded-lg">
+            <div class="space-y-3 flex-grow">
+                <h3 class="text-xl font-semibold text-gray-800 py-2">Business Processes Automation</h3>
                 <p class="text-gray-700 text-base">
-                    Hit your sales targets through expertly implemented automated workflows, cutting manual tasks and maximizing efficiency.
+                    Our tailored solutions streamline operations, reduce errors, and free up your team to focus on driving growth and success.
                 </p>
-                <a href="/mobile-app-development" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-5 rounded-lg transition-colors duration-300 text-base">
-                    Learn More
-                </a>
             </div>
+            <a href="/mobile-app-development" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 text-base mt-4 self-start">
+                Learn More
+            </a>
         </div>
     
-        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 w-80 m-4 p-6 space-y-4">
-            <img src="images/0x0.webp" alt="Service 6" class="w-full h-40 object-cover object-center rounded-lg">
-            <div class="space-y-3">
-                <h3 class="text-xl font-semibold text-gray-800">E-Commerce</h3>
+        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 w-80 m-4 p-6 flex flex-col">
+            <img src="images/ecommerce.webp" alt="Service 6" class="w-full h-40 object-cover object-center rounded-lg">
+            <div class="space-y-3 flex-grow">
+                <h3 class="text-xl font-semibold text-gray-800 py-2">E-Commerce</h3>
                 <p class="text-gray-700 text-base">
                     Secure a user-friendly, visually appealing, customized e-commerce platform that maximizes conversions and drives sales.
                 </p>
-                <a href="/seo" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-5 rounded-lg transition-colors duration-300 text-base">
-                    Learn More
-                </a>
             </div>
+            <a href="/seo" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 text-base mt-4 self-start">
+                Learn More
+            </a>
         </div>
     </div>
     
@@ -567,7 +563,9 @@
 Testimonials            
 </h2>
         </div>
-    </div>  <div class="flex flex-wrap justify-center gap-8">
+    </div> 
+    
+    <div class="flex flex-wrap justify-center gap-8">
       <div class="bg-white rounded-lg shadow-md p-6 text-center w-80">
           <p class="text-gray-700 mb-4">"This blog has been incredibly helpful. I've learned so much!"</p>
           <p class="font-semibold">- John Doe</p>
@@ -627,6 +625,39 @@ Testimonials
       </div>
   </div>
 </section>
+
+<section class="bg-white py-12 px-6">
+    <div class="max-w-6xl mx-auto text-center">
+ <div class="flex justify-center mb-8 py-4">
+        <div class="bg-green-600 inline-block px-6 py-3 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold text-white text-center">
+                Mission, Vision & Core Values            
+</h2>
+        </div>
+    </div>         
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Mission -->
+            <div class="bg-white p-6 shadow-lg rounded-2xl">
+                <h3 class="text-xl font-semibold text-blue-600 mb-4">Our Mission</h3>
+                <p class="text-gray-600">To enable people, businesses, organisations and governments achieve optimal productivity by leveraging new, upcoming and existing technologies.</p>
+            </div>
+            
+            <!-- Vision -->
+            <div class="bg-white p-6 shadow-lg rounded-2xl">
+                <h3 class="text-xl font-semibold text-green-600 mb-4">Our Vision</h3>
+                <p class="text-gray-600">To become the go-to destination for new, upcoming and existing tech innovations.</p>
+            </div>
+            
+            <!-- Core Values -->
+            <div class="bg-white p-6 shadow-lg rounded-2xl">
+                <h3 class="text-xl font-semibold text-yellow-600 mb-4">Our Core Values</h3>
+                <p class="text-gray-600">Continuous Learning and Improvement, Professionalism, Integrity, Commitment and Hard work
+        </p>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 @endsection
 
