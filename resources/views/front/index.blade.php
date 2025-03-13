@@ -5,6 +5,30 @@
 
     <div class="relative w-full h-72 md:h-[400px] overflow-hidden rounded-lg">
         <div class="absolute inset-0 flex transition-transform duration-500 ease-in-out" id="simple-slider">
+
+            <div class="min-w-full flex flex-col md:flex-row bg-gray-100 py-12">
+                <!-- Text Section -->
+                <div class="md:w-3/5 flex items-center justify-center p-10">
+                    <div class="text-center text-black max-w-2xl bg-white p-8 rounded-lg shadow-xl border border-green-500">
+                        <h2 class="text-2xl font-extrabold text-gray-900 mb-4 drop-shadow-md">
+                            Welcome to Tech For Development
+                        </h2>
+                        <p class="text-lg font-medium text-gray-700 mb-6 drop-shadow-lg leading-relaxed">
+                            Where innovation meets impact. Your go-to hub for all things data and tailored technology solutions.
+                        </p>
+                        <a href="#" class="bg-blue-600 hover:bg-blue-800 text-white font-bold py-3 px-6 rounded-full shadow-lg transition-all duration-300 ease-in-out">
+                            Explore More
+                        </a>
+                    </div>
+                </div>
+            
+                <!-- Image Section -->
+                <div class="md:w-2/5 h-96 md:h-auto relative">
+                    <div class="absolute inset-0 bg-black/30 rounded-lg"></div>
+                    <img src="images/dataminingimage1.jpg" alt="Technology" class="absolute inset-0 w-full h-full object-cover rounded-lg">
+                </div>
+            </div>
+            
     
             <div class="min-w-full flex md:flex-row">
                 <div class="md:w-1/2 flex items-center justify-center p-8">
@@ -40,7 +64,7 @@
                 <div class="md:w-1/2 flex items-center justify-center p-8">
                     <div class="text-center text-black max-w-2xl bg-white p-6 rounded-lg shadow-md">
                         <h2 class="bg-green-500 text-white text-xl md:text-2xl font-semibold mb-4 drop-shadow-lg p-2 rounded-lg">
-                            Mobile Data Collection Consultancy
+                             Data Collection 
                         </h2>
                          <p class="text-lg [font-size:18px] mb-6 drop-shadow-lg">Attain peak efficiency and project success through the expert implementation of mobile data collection tools like ODK, KoBoToolBox, and SurveyCTO.</p>
                         <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-md">Explore More</a>
@@ -55,7 +79,7 @@
                 <div class="md:w-1/2 flex items-center justify-center p-8">
                     <div class="text-center text-black max-w-2xl bg-white p-6 rounded-lg shadow-md">
                         <h2 class="bg-green-500 text-white text-xl md:text-2xl font-semibold mb-4 drop-shadow-lg p-2 rounded-lg">
-                            E-Learning System Development and Implementation</h2>   
+                            E-Learning</h2>   
                          <p class="text-lg [font-size:18px] mb-6 drop-shadow-lg">Secure the best training platform with flexible e-learning systems offering diverse training formats and pathways that adapt to learners' evolving needs.</p>
                         <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-md">Explore More</a>
                     </div>
@@ -273,37 +297,37 @@
 <section class="bg-gray-100 py-16">
   <div class="container mx-auto px-4">
       <h2 class="text-3xl font-semibold text-gray-800 mb-6 text-center">Course Categories</h2>
-      <p class="text-gray-600 text-center mb-8">
+      {{-- <p class="text-gray-600 text-center mb-8">
           Discover a wide range of courses crafted to enhance your skills and accelerate your career.
-      </p>
+      </p> --}}
 
       <div class="flex flex-wrap justify-center gap-6">
           <a
               href="/software-tech-courses"
               class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 hover:bg-blue-500 w-80"
           >
-              <h3 class="text-xl font-semibold text-gray-800 mb-4">Software and Tech</h3>
+              <h3 class="text-xl font-semibold text-gray-800 mb-4">Data Collection
+            </h3>
               <p class="text-gray-600">
-                  Explore courses in programming, web development, cybersecurity, and more.
+                Master data collection through tailor-made training in cutting-edge tools like ODK, KoBoToolbox, drones, sensors, and SMS – and achieve streamlined, productive operations.
               </p>
           </a>
           <a
           href="/software-tech-courses"
           class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 hover:bg-blue-500 w-80"
       >
-          <h3 class="text-xl font-semibold text-gray-800 mb-4">Software and Tech</h3>
+          <h3 class="text-xl font-semibold text-gray-800 mb-4">Data Science</h3>
           <p class="text-gray-600">
-              Explore courses in programming, web development, cybersecurity, and more.
+            Dominate the competition with expert data skills through tailor-made data science training that drives data-driven decision-making. 
           </p>
       </a>
       <a
       href="/software-tech-courses"
       class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 hover:bg-blue-500 w-80"
   >
-      <h3 class="text-xl font-semibold text-gray-800 mb-4">Software and Tech</h3>
+      <h3 class="text-xl font-semibold text-gray-800 mb-4">Digital Marketing</h3>
       <p class="text-gray-600">
-          Explore courses in programming, web development, cybersecurity, and more.
-      </p>
+        Dominate the digital landscape, amplify brand awareness, drive conversions, and accelerate business growth with custom, expert-led digital marketing training.      </p>
   </a>
 
           <a
