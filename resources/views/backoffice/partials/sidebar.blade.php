@@ -27,7 +27,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('backoffice.course.create') }}">
+                                    <a href="{{ route('backoffice.course.index') }}">
                                         Add Course
                                     </a>
                                 </li>

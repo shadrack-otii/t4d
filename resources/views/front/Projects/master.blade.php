@@ -85,7 +85,7 @@
 
 
 <!-- GetButton.io widget -->
-<script type="text/javascript">
+{{-- <script type="text/javascript">
     (function() {
         var options = {
             whatsapp: "(+254) 725 966 032", // WhatsApp number
@@ -105,7 +105,7 @@
         var x = document.getElementsByTagName('script')[0];
         x.parentNode.insertBefore(s, x);
     })();
-</script>
+</script> --}}
 <!-- /GetButton.io widget -->
 
 
@@ -116,7 +116,7 @@
 <script type="text/javascript">
     (function() {
         var options = {
-            whatsapp: "+254725966032", // Wh2atsApp number
+            whatsapp: "+254113434055", // Wh2atsApp number
             call_to_action: "Message us", // Call to action
             position: "left", // Position may be 'right' or 'left'
         };

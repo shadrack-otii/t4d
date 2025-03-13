@@ -115,7 +115,7 @@
     <script type="text/javascript">
         (function() {
             var options = {
-                whatsapp: "(+250) 780 945 790", // WhatsApp number
+                whatsapp: "(+254) 11 343 4055", // WhatsApp number
                 // call_to_action: "Message us", // Call to action
                 position: "left", // Position may be 'right' or 'left'
             };
@@ -153,10 +153,10 @@
     </script>
 
     <!-- GetButton.io widget -->
-    <script type="text/javascript">
+    {{-- <script type="text/javascript">
         (function() {
             var options = {
-                whatsapp: "+254725966032", // WhatsApp number
+                whatsapp: "+254113434055", // WhatsApp number
                 // call_to_action: "Message us", // Call to action
                 position: "left", // Position may be 'right' or 'left'
             };
@@ -173,7 +173,7 @@
             var x = document.getElementsByTagName('script')[0];
             x.parentNode.insertBefore(s, x);
         })();
-    </script>
+    </script> --}}
     <!-- /GetButton.io widget -->
 @endif
 

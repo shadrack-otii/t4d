@@ -218,8 +218,16 @@
 
 <section class="bg-gray-100 py-12 px-20">
     <div class="container mx-auto px-4 lg:px-8">
-         <h2 class="text-2xl font-semibold text-center mb-6 text-gray-800">Explore Our Courses</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div class="flex justify-center py-4 mb-8">
+            <div class="bg-green-600 inline-block px-6 py-3 rounded-lg shadow-md">
+                <h2 class="text-2xl font-semibold text-white text-center ">
+                    Explore Our Courses
+                </h2>
+            </div>
+        </div>
+        
+        
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         <div class="bg-white rounded-md shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 mx-2"> <img src="https://source.unsplash.com/random/400x250/?coding" alt="Course Image" class="w-full h-32 object-cover">
           <div class="p-4">
             <h3 class="text-lg font-semibold mb-1 text-gray-800">Web Dev</h3>
@@ -296,12 +304,27 @@
 
 <section class="bg-gray-100 py-16">
   <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-semibold text-gray-800 mb-6 text-center">Course Categories</h2>
-      {{-- <p class="text-gray-600 text-center mb-8">
+    <div class="flex justify-center mb-8 py-4">
+        <div class="bg-green-600 inline-block px-6 py-3 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold text-white text-center">
+                Course Categories       
+                 </h2>
+        </div>
+    </div>      {{-- <p class="text-gray-600 text-center mb-8">
           Discover a wide range of courses crafted to enhance your skills and accelerate your career.
       </p> --}}
 
       <div class="flex flex-wrap justify-center gap-6">
+        <a
+              href="/software-tech-courses"
+              class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 hover:bg-blue-500 w-80"
+          >
+              <h3 class="text-xl font-semibold text-gray-800 mb-4">eLearning
+            </h3>
+              <p class="text-gray-600">
+                Our eLearning portal delivers self-paced and instructor-led data courses, plus certifications, to propel you to expert status.
+              </p>
+          </a>
           <a
               href="/software-tech-courses"
               class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 hover:bg-blue-500 w-80"
@@ -318,7 +341,7 @@
       >
           <h3 class="text-xl font-semibold text-gray-800 mb-4">Data Science</h3>
           <p class="text-gray-600">
-            Dominate the competition with expert data skills through tailor-made data science training that drives data-driven decision-making. 
+            Unlock the power of data with tailor-made data science courses and master efficient data-driven decision-making. 
           </p>
       </a>
       <a
@@ -334,31 +357,21 @@
               href="/ecommerce-courses"
               class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 hover:bg-blue-500 w-80"
           >
-              <h3 class="text-xl font-semibold text-gray-800 mb-4">E-Commerce</h3>
+              <h3 class="text-xl font-semibold text-gray-800 mb-4">Data Management    </h3>
               <p class="text-gray-600">
-                  Learn how to build and manage successful online stores and businesses.
-              </p>
+                Master your data, make smart decisions, and deliver real results. Our customized training programs are designed to equip you with the skills to take charge of your data.              </p>
           </a>
 
           <a
               href="/elearning-courses"
               class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 hover:bg-blue-500 w-80"
           >
-              <h3 class="text-xl font-semibold text-gray-800 mb-4">E-Learning</h3>
+              <h3 class="text-xl font-semibold text-gray-800 mb-4">Mapping        </h3>
               <p class="text-gray-600">
-                  Discover how to create and deliver engaging online educational content.
-              </p>
+                Streamlined data flows, unified view, instant insights. Our tailor-made mapping training gets you there.              </p>
           </a>
 
-          <a
-              href="/data-services-courses"
-              class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 hover:bg-blue-500 w-80"
-          >
-              <h3 class="text-xl font-semibold text-gray-800 mb-4">Data Services</h3>
-              <p class="text-gray-600">
-                  Gain expertise in data analytics, data science, and database management.
-              </p>
-          </a>
+  
       </div>
   </div>
 </section>
@@ -366,79 +379,96 @@
 
 <section class="bg-gray-100 py-10">
   <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-semibold text-gray-800 mb-8 text-center">Our Services</h2>
-
-      <div class="flex flex-wrap justify-center gap-6">
-          <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 w-80">
-              <img src="images/0x0.webp" alt="Service 1" class="w-full h-36 object-cover object-center">
-              <div class="p-4">
-                  <h3 class="text-lg font-semibold text-gray-800 mb-2">Data Training and Capacity Building</h3>
-                  <p class="text-gray-600 text-sm">
-                    Achieve data excellence and stay ahead of the competition with tailored, expert-led training and capacity building in data collection, management, analysis, visualization, and mapping
-                  </p>
-                  <a href="/web-development" class="mt-2 inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 text-sm">Learn More</a>
-              </div>
-          </div>
-
-          <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 w-80">
-              <img src="images/0x0.webp" alt="Service 2" class="w-full h-36 object-cover object-center">
-              <div class="p-4">
-                  <h3 class="text-lg font-semibold text-gray-800 mb-2">Digital Marketing Training and Capacity Building</h3>
-                  <p class="text-gray-600 text-sm">
-                    Amplify brand awareness, drive conversions, boost sales, and accelerate business growth with customized, expert-led training and capacity building in key digital marketing channels.
-                  </p>
-                  <a href="/digital-marketing" class="mt-2 inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 text-sm">Learn More</a>
-              </div>
-          </div>
-
-          <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 w-80">
-              <img src="images/0x0.webp" alt="Service 3" class="w-full h-36 object-cover object-center">
-              <div class="p-4">
-                  <h3 class="text-lg font-semibold text-gray-800 mb-2">Mobile Data Collection Consultancy.
-                </h3>
-                  <p class="text-gray-600 text-sm">
-                    Attain peak efficiency and project success with the expert implementation of mobile data collection tools like ODK, KoBoToolBox, and SurveyCTO.
-
+    <div class="flex justify-center py-4 mb-8">
+        <div class="bg-green-600 inline-block px-6 py-3 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold text-white text-center">
+                Our Services
+            </h2>
+        </div>
+    </div>
+    <div class="flex flex-wrap justify-center gap-5">
+        <!-- Card Start -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 w-80 m-4 p-6 space-y-4">
+            <img src="images/0x0.webp" alt="Service 1" class="w-full h-40 object-cover object-center rounded-lg">
+            <div class="space-y-3">
+                <h3 class="text-xl font-semibold text-gray-800">Data</h3>
+                <p class="text-gray-700 text-base">
+                    Outpace the competition through expert assistance and training in data collection, management, analysis, visualization, and mapping.
                 </p>
-                  <a href="/data-analytics" class="mt-2 inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 text-sm">Learn More</a>
-              </div>
-          </div>
-
-          <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 w-80">
-              <img src="images/0x0.webp" alt="Service 4" class="w-full h-36 object-cover object-center">
-              <div class="p-4">
-                  <h3 class="text-lg font-semibold text-gray-800 mb-2">E-Learning System Development and Implementation.</h3>
-                  <p class="text-gray-600 text-sm">
-                    Secure the best training platform with powerful e-learning systems offering diverse training formats and flexible pathways that adapt to learners' evolving needs.
-                  </p>
-                  <a href="/cloud-solutions" class="mt-2 inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 text-sm">Learn More</a>
-              </div>
-          </div>
-
-          <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 w-80">
-              <img src="images/0x0.webp" alt="Service 5" class="w-full h-36 object-cover object-center">
-              <div class="p-4">
-                  <h3 class="text-lg font-semibold text-gray-800 mb-2">Business Processes Automation Consultancy.</h3>
-                  <p class="text-gray-600 text-sm">
+                <a href="/web-development" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-5 rounded-lg transition-colors duration-300 text-base">
+                    Learn More
+                </a>
+            </div>
+        </div>
+        <!-- Card End -->
+    
+        <!-- Repeat for all other cards -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 w-80 m-4 p-6 space-y-4">
+            <img src="images/0x0.webp" alt="Service 2" class="w-full h-40 object-cover object-center rounded-lg">
+            <div class="space-y-3">
+                <h3 class="text-xl font-semibold text-gray-800">Digital Marketing</h3>
+                <p class="text-gray-700 text-base">
+                    Amplify brand awareness, drive conversions, boost sales, and accelerate business growth with expert-led training in key digital marketing channels.
+                </p>
+                <a href="/digital-marketing" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-5 rounded-lg transition-colors duration-300 text-base">
+                    Learn More
+                </a>
+            </div>
+        </div>
+    
+        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 w-80 m-4 p-6 space-y-4">
+            <img src="images/0x0.webp" alt="Service 3" class="w-full h-40 object-cover object-center rounded-lg">
+            <div class="space-y-3">
+                <h3 class="text-xl font-semibold text-gray-800">Data Collection</h3>
+                <p class="text-gray-700 text-base">
+                    Attain peak efficiency with expert implementation of mobile data collection tools like ODK, KoBoToolBox, and SurveyCTO.
+                </p>
+                <a href="/data-analytics" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-5 rounded-lg transition-colors duration-300 text-base">
+                    Learn More
+                </a>
+            </div>
+        </div>
+    
+        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 w-80 m-4 p-6 space-y-4">
+            <img src="images/0x0.webp" alt="Service 4" class="w-full h-40 object-cover object-center rounded-lg">
+            <div class="space-y-3">
+                <h3 class="text-xl font-semibold text-gray-800">E-Learning</h3>
+                <p class="text-gray-700 text-base">
+                    Secure the best training platform with powerful e-learning systems offering diverse training formats and flexible pathways.
+                </p>
+                <a href="/cloud-solutions" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-5 rounded-lg transition-colors duration-300 text-base">
+                    Learn More
+                </a>
+            </div>
+        </div>
+    
+        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 w-80 m-4 p-6 space-y-4">
+            <img src="images/0x0.webp" alt="Service 5" class="w-full h-40 object-cover object-center rounded-lg">
+            <div class="space-y-3">
+                <h3 class="text-xl font-semibold text-gray-800">Business Processes Automation</h3>
+                <p class="text-gray-700 text-base">
                     Hit your sales targets through expertly implemented automated workflows, cutting manual tasks and maximizing efficiency.
-
-
-                  </p>
-                  <a href="/mobile-app-development" class="mt-2 inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 text-sm">Learn More</a>
-              </div>
-          </div>
-
-          <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 w-80">
-              <img src="images/0x0.webp" alt="Service 6" class="w-full h-36 object-cover object-center">
-              <div class="p-4">
-                  <h3 class="text-lg font-semibold text-gray-800 mb-2">E-Commerce System Development, Implementation, and Management
-                </h3>
-                  <p class="text-gray-600 text-sm">
-                    Secure a user-friendly, visually appealing, customized e-commerce platform that maximizes conversions and drives sales.                  </p>
-                  <a href="/seo" class="mt-2 inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 text-sm">Learn More</a>
-              </div>
-          </div>
-      </div>
+                </p>
+                <a href="/mobile-app-development" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-5 rounded-lg transition-colors duration-300 text-base">
+                    Learn More
+                </a>
+            </div>
+        </div>
+    
+        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 w-80 m-4 p-6 space-y-4">
+            <img src="images/0x0.webp" alt="Service 6" class="w-full h-40 object-cover object-center rounded-lg">
+            <div class="space-y-3">
+                <h3 class="text-xl font-semibold text-gray-800">E-Commerce</h3>
+                <p class="text-gray-700 text-base">
+                    Secure a user-friendly, visually appealing, customized e-commerce platform that maximizes conversions and drives sales.
+                </p>
+                <a href="/seo" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-5 rounded-lg transition-colors duration-300 text-base">
+                    Learn More
+                </a>
+            </div>
+        </div>
+    </div>
+    
   </div>
 </section>
 
@@ -484,8 +514,13 @@
 
 <section class="py-16 bg-gray-100">
   <div class="container mx-auto text-center">
-      <h2 class="text-3xl font-semibold mb-8">Our Previous Clients</h2>
-
+    <div class="flex justify-center mb-8 py-4">
+        <div class="bg-green-600 inline-block px-6 py-3 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold text-white text-center">
+                Our Previous Clients
+            </h2>
+        </div>
+    </div>
       <div class="flex flex-wrap justify-center gap-4 px-4">
           <div class="p-3 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-28 h-28 flex items-center justify-center">
               <img src="logos/kpalogo.jpg" alt="Client 1 Logo" class="max-h-20 max-w-full object-contain">
@@ -526,8 +561,13 @@
 
 
 <section class="mt-16">
-  <h2 class="text-3xl font-bold mb-8 text-center">Testimonials</h2>
-  <div class="flex flex-wrap justify-center gap-8">
+    <div class="flex justify-center mb-8 py-4">
+        <div class="bg-green-600 inline-block px-6 py-3 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold text-white text-center">
+Testimonials            
+</h2>
+        </div>
+    </div>  <div class="flex flex-wrap justify-center gap-8">
       <div class="bg-white rounded-lg shadow-md p-6 text-center w-80">
           <p class="text-gray-700 mb-4">"This blog has been incredibly helpful. I've learned so much!"</p>
           <p class="font-semibold">- John Doe</p>
@@ -550,8 +590,13 @@
 
 <section class="py-16 bg-white">
   <div class="container mx-auto text-center">
-      <h2 class="text-3xl font-semibold mb-8">Our Affiliations</h2>
-      <p class="text-gray-600 mb-10">We are proud to be affiliated with these reputable organizations.</p>
+    <div class="flex justify-center mb-8 py-10">
+        <div class="bg-green-600 inline-block px-6 py-3 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold text-white text-center">
+                Our Affiliations
+            </h2>
+        </div>
+    </div>      <p class="text-gray-600 mb-10">We are proud to be affiliated with these reputable organizations.</p>
 
       <div class="flex flex-wrap justify-center gap-8">
 
