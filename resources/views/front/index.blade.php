@@ -316,7 +316,7 @@
 
       <div class="flex flex-wrap justify-center gap-6">
         <a
-              href="/software-tech-courses"
+              href="https://teefodee.com" target="_blank"
               class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 hover:bg-blue-500 w-80"
           >
               <h3 class="text-xl font-semibold text-gray-800 mb-4">eLearning
@@ -354,7 +354,7 @@
   </a>
 
           <a
-              href="/ecommerce-courses"
+              href=""
               class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 hover:bg-blue-500 w-80"
           >
               <h3 class="text-xl font-semibold text-gray-800 mb-4">Data Management    </h3>
