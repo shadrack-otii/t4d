@@ -321,8 +321,8 @@
           >
               <h3 class="text-xl font-semibold text-gray-800 mb-4">eLearning
             </h3>
-              <p class="text-gray-600">
-                Our eLearning portal delivers self-paced and instructor-led data courses, plus certifications, to propel you to expert status.
+              <p class="text-gray-600 text-justify">
+                Our eLearning portal delivers self-paced, instructor-led data courses and certifications designed to propel you to expert status.
               </p>
           </a>
           <a
@@ -331,7 +331,7 @@
           >
               <h3 class="text-xl font-semibold text-gray-800 mb-4">Data Collection
             </h3>
-              <p class="text-gray-600">
+              <p class="text-gray-600 text-justify">
                 Master data collection through tailor-made training in cutting-edge tools like ODK, KoBoToolbox, drones, sensors, and SMS – and achieve streamlined, productive operations.
               </p>
           </a>
@@ -340,7 +340,7 @@
           class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 hover:bg-blue-500 w-80"
       >
           <h3 class="text-xl font-semibold text-gray-800 mb-4">Data Science</h3>
-          <p class="text-gray-600">
+          <p class="text-gray-600 text-justify">
             Unlock the power of data with tailor-made data science courses and master efficient data-driven decision-making. 
           </p>
       </a>
@@ -349,7 +349,7 @@
       class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 hover:bg-blue-500 w-80"
   >
       <h3 class="text-xl font-semibold text-gray-800 mb-4">Digital Marketing</h3>
-      <p class="text-gray-600">
+      <p class="text-gray-600 text-justify">
         Dominate the digital landscape, amplify brand awareness, drive conversions, and accelerate business growth with custom, expert-led digital marketing training.      </p>
   </a>
 
@@ -358,7 +358,7 @@
               class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 hover:bg-blue-500 w-80"
           >
               <h3 class="text-xl font-semibold text-gray-800 mb-4">Data Management    </h3>
-              <p class="text-gray-600">
+              <p class="text-gray-600 text-justify">
                 Master your data, make smart decisions, and deliver real results. Our customized training programs are designed to equip you with the skills to take charge of your data.              </p>
           </a>
 
@@ -367,7 +367,7 @@
               class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 hover:bg-blue-500 w-80"
           >
               <h3 class="text-xl font-semibold text-gray-800 mb-4">Mapping        </h3>
-              <p class="text-gray-600">
+              <p class="text-gray-600 text-justify">
                 Streamlined data flows, unified view, instant insights. Our tailor-made mapping training gets you there.              </p>
           </a>
 
@@ -605,44 +605,54 @@ Testimonials
 </section>
 
 <section class="py-16 bg-white">
-  <div class="container mx-auto text-center">
-    <div class="flex justify-center mb-8 py-10">
-        <div class="bg-green-600 inline-block px-6 py-3 rounded-lg shadow-md">
-            <h2 class="text-2xl font-semibold text-white text-center">
-                Our Affiliations
-            </h2>
-        </div>
-    </div>      <p class="text-gray-600 mb-10">We are proud to be affiliated with these reputable organizations.</p>
-
+    <div class="container mx-auto text-center">
+      <div class="flex justify-center mb-8 py-10">
+          <div class="bg-green-600 inline-block px-6 py-3 rounded-lg shadow-md">
+              <h2 class="text-2xl font-semibold text-white text-center">
+                  Our Affiliations
+              </h2>
+          </div>
+      </div>     
+  
       <div class="flex flex-wrap justify-center gap-8">
-
+  
           <div class="flex flex-col items-center p-6 bg-gray-100 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-64">
-              <img src="affiliation-logo-1.png" alt="Affiliation 1 Logo" class="max-h-20 max-w-full object-contain mb-4">
-              <h3 class="text-lg font-semibold text-gray-800">Organization A</h3>
-              <p class="text-sm text-gray-600 mt-2">Brief description of the affiliation.</p>
+              <img src="logos/medialytica.webp" alt="Medialytica Logo" class="max-h-20 max-w-full object-contain mb-4">
+              <h3 class="text-lg font-semibold text-gray-800">
+                  <a href="https://medialytica.com" class="text-blue-600 hover:underline" target="_blank">Medialytica.com</a>
+              </h3>
+              <p class="text-sm text-gray-600 mt-2">Medialytica.com is a media buying portal that connects content creators to advertisers.</p>
           </div>
-
+  
           <div class="flex flex-col items-center p-6 bg-gray-100 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-64">
-              <img src="affiliation-logo-2.png" alt="Affiliation 2 Logo" class="max-h-20 max-w-full object-contain mb-4">
-              <h3 class="text-lg font-semibold text-gray-800">Organization B</h3>
-              <p class="text-sm text-gray-600 mt-2">Brief description of the affiliation.</p>
+              <img src="logos/t4d.png" alt="Medialytica Logo" class="max-h-20 max-w-full object-contain mb-4">
+              <h3 class="text-lg font-semibold text-gray-800">
+                  <a href="https://teefodee.com" class="text-blue-600 hover:underline" target="_blank">Teefodee.com </a>
+              </h3>
+              <p class="text-sm text-gray-600 mt-2">Teefodee.com is an eLearning portal connecting students all over the world to the best instructors.
+              </p>
           </div>
-
+  
           <div class="flex flex-col items-center p-6 bg-gray-100 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-64">
-              <img src="affiliation-logo-3.png" alt="Affiliation 3 Logo" class="max-h-20 max-w-full object-contain mb-4">
-              <h3 class="text-lg font-semibold text-gray-800">Organization C</h3>
-              <p class="text-sm text-gray-600 mt-2">Brief description of the affiliation.</p>
+              <img src="logos/teefodee.jpg" alt="Medialytica Logo" class="max-h-20 max-w-full object-contain mb-4">
+              <h3 class="text-lg font-semibold text-gray-800">
+                  <a href="https://t4d.or.ke" class="text-blue-600 hover:underline" target="_blank">T4d.or.ke </a>
+              </h3>
+              <p class="text-sm text-gray-600 mt-2">Medialytica.com is a media buying portal that connects content creators to advertisers.</p>
           </div>
-
+  
           <div class="flex flex-col items-center p-6 bg-gray-100 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-64">
-              <img src="affiliation-logo-4.png" alt="Affiliation 4 Logo" class="max-h-20 max-w-full object-contain mb-4">
-              <h3 class="text-lg font-semibold text-gray-800">Organization D</h3>
-              <p class="text-sm text-gray-600 mt-2">Brief description of the affiliation.</p>
+              <img src="logos/medialytica.webp" alt="Medialytica Logo" class="max-h-20 max-w-full object-contain mb-4">
+              <h3 class="text-lg font-semibold text-gray-800">
+                  <a href="https://medialytica.com" class="text-blue-600 hover:underline" target="_blank">Medialytica.com</a>
+              </h3>
+              <p class="text-sm text-gray-600 mt-2">Medialytica.com is a media buying portal that connects content creators to advertisers.</p>
           </div>
-
+  
       </div>
-  </div>
-</section>
+    </div>
+  </section>
+  
 
 <section class="bg-white py-12 px-6">
     <div class="max-w-6xl mx-auto text-center">
