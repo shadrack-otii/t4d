@@ -284,79 +284,62 @@
     </div>
   </section>
 
-<section class="bg-gray-100 py-16">
-  <div class="container mx-auto px-4">
-    <div class="flex justify-center py-10 mb-4 relative">
-        <div class="bg-green-600 inline-block px-4 py-2 rounded-md shadow-sm relative z-10">
-            <h2 class="text-lg font-semibold text-white text-center">
-                Explore
-            </h2>
+  <section class="bg-gray-100 py-12 px-4 md:px-8 lg:px-16">
+    <div class="container mx-auto">
+        <div class="flex justify-center py-8 mb-3 relative">
+            <div class="bg-green-600 inline-block px-3 py-1.5 rounded-md shadow-sm relative z-10">
+                <h2 class="text-lg font-semibold text-white text-center">
+                    Explore
+                </h2>
+            </div>
+            <div class="absolute top-1/2 transform -translate-y-1/2 left-0 w-full sm:left-[20%] sm:w-[60%] h-0.5 bg-green-700 z-0"></div>
         </div>
-        <div class="absolute top-1/2 transform -translate-y-1/2 left-0 w-full sm:left-[20%] sm:w-[60%] h-0.5 bg-green-700 z-0"></div>
-    </div>     {{-- <p class="text-gray-600 text-center mb-8">
-          Discover a wide range of courses crafted to enhance your skills and accelerate your career.
-      </p> --}}
 
-      <div class="flex flex-wrap justify-center gap-6">
-        <a
-              href="https://teefodee.com" target="_blank"
-              class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 hover:bg-blue-500 w-80"
-          >
-              <h3 class="text-xl font-semibold text-gray-800 mb-4">eLearning
-            </h3>
-              <p class="text-gray-600 text-justify">
-                Our eLearning portal delivers self-paced, instructor-led data courses and certifications designed to propel you to expert status.
-              </p>
-          </a>
-          <a
-              href="/software-tech-courses"
-              class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 hover:bg-blue-500 w-80"
-          >
-              <h3 class="text-xl font-semibold text-gray-800 mb-4">Data Collection
-            </h3>
-              <p class="text-gray-600 text-justify">
-                Master data collection through tailor-made training in cutting-edge tools like ODK, KoBoToolbox, drones, sensors, and SMS – and achieve streamlined, productive operations.
-              </p>
-          </a>
-          <a
-          href="/software-tech-courses"
-          class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 hover:bg-blue-500 w-80"
-      >
-          <h3 class="text-xl font-semibold text-gray-800 mb-4">Data Science</h3>
-          <p class="text-gray-600 text-justify">
-            Unlock the power of data with tailor-made data science courses and master efficient data-driven decision-making. 
-          </p>
-      </a>
-      <a
-      href="/software-tech-courses"
-      class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 hover:bg-blue-500 w-80"
-  >
-      <h3 class="text-xl font-semibold text-gray-800 mb-4">Digital Marketing</h3>
-      <p class="text-gray-600 text-justify">
-        Dominate the digital landscape, amplify brand awareness, drive conversions, and accelerate business growth with custom, expert-led digital marketing training.      </p>
-  </a>
-
-          <a
-              href=""
-              class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 hover:bg-blue-500 w-80"
-          >
-              <h3 class="text-xl font-semibold text-gray-800 mb-4">Data Management    </h3>
-              <p class="text-gray-600 text-justify">
-                Master your data, make smart decisions, and deliver real results. Our customized training programs are designed to equip you with the skills to take charge of your data.              </p>
-          </a>
-
-          <a
-              href="/elearning-courses"
-              class="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 hover:bg-blue-500 w-80"
-          >
-              <h3 class="text-xl font-semibold text-gray-800 mb-4">Mapping        </h3>
-              <p class="text-gray-600 text-justify">
-                Streamlined data flows, unified view, instant insights. Our tailor-made mapping training gets you there.              </p>
-          </a>
-
-  
-      </div>
-  </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6 px-2 lg:px-4">
+            <a href="https://teefodee.com" target="_blank"
+                class="bg-white rounded-md shadow-sm p-4 hover:shadow transition-all duration-300 transform hover:-translate-y-1 hover:bg-blue-100">
+                <h3 class="text-lg font-semibold text-gray-800 mb-2">eLearning</h3>
+                <p class="text-sm text-gray-600 text-justify">
+                    Our eLearning portal delivers self-paced, instructor-led data courses and certifications designed to propel you to expert status.
+                </p>
+            </a>
+            <a href="/software-tech-courses"
+                class="bg-white rounded-md shadow-sm p-4 hover:shadow transition-all duration-300 transform hover:-translate-y-1 hover:bg-blue-100">
+                <h3 class="text-lg font-semibold text-gray-800 mb-2">Data Collection</h3>
+                <p class="text-sm text-gray-600 text-justify">
+                    Master data collection through tailor-made training in cutting-edge tools like ODK, KoBoToolbox, drones, sensors, and SMS – and achieve streamlined, productive operations.
+                </p>
+            </a>
+            <a href="/software-tech-courses"
+                class="bg-white rounded-md shadow-sm p-4 hover:shadow transition-all duration-300 transform hover:-translate-y-1 hover:bg-blue-100">
+                <h3 class="text-lg font-semibold text-gray-800 mb-2">Data Science</h3>
+                <p class="text-sm text-gray-600 text-justify">
+                    Unlock the power of data with tailor-made data science courses and master efficient data-driven decision-making.
+                </p>
+            </a>
+            <a href="/software-tech-courses"
+                class="bg-white rounded-md shadow-sm p-4 hover:shadow transition-all duration-300 transform hover:-translate-y-1 hover:bg-blue-100">
+                <h3 class="text-lg font-semibold text-gray-800 mb-2">Digital Marketing</h3>
+                <p class="text-sm text-gray-600 text-justify">
+                    Dominate the digital landscape, amplify brand awareness, drive conversions, and accelerate business growth with custom, expert-led digital marketing training.
+                </p>
+            </a>
+            <a href=""
+                class="bg-white rounded-md shadow-sm p-4 hover:shadow transition-all duration-300 transform hover:-translate-y-1 hover:bg-blue-100">
+                <h3 class="text-lg font-semibold text-gray-800 mb-2">Data Management</h3>
+                <p class="text-sm text-gray-600 text-justify">
+                    Master your data, make smart decisions, and deliver real results. Our customized training programs are designed to equip you with the skills to take charge of your data.
+                </p>
+            </a>
+            <a href="/elearning-courses"
+                class="bg-white rounded-md shadow-sm p-4 hover:shadow transition-all duration-300 transform hover:-translate-y-1 hover:bg-blue-100">
+                <h3 class="text-lg font-semibold text-gray-800 mb-2">Mapping</h3>
+                <p class="text-sm text-gray-600 text-justify">
+                    Streamlined data flows, unified view, instant insights. Our tailor-made mapping training gets you there.
+                </p>
+            </a>
+        </div>
+    </div>
 </section>
 
 
