@@ -20,7 +20,7 @@ jobs:
         with:
           server: ${{ secrets.FTP_SERVER_T }}
           username: ${{ secrets.FTP_USERNAME_T }}
-          password: ${{ secrets.FTP_PASSWORD_T` }}
+          password: ${{ secrets.FTP_PASSWORD_T }}
           server-dir: '/'
           protocol: ftp
           passive: true
