@@ -14,7 +14,9 @@
 
                         </h2>                        
                         <p class="text-lg [font-size:18px] mb-6 drop-shadow-lg">  Where innovation meets impact. Your go-to hub for all things data and tailored technology solutions.                        </p>
-                        <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-md">Explore More</a>
+                        <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-md">
+                            
+                            Explore More</a>
                     </div>
                 </div>
                 <div class="md:w-1/2 h-full relative">
@@ -211,99 +213,87 @@
 
 <section class="bg-gray-100 py-12 px-20">
     <div class="container mx-auto px-4 lg:px-8">
-        <div class="flex justify-center py-4 mb-8">
-            <div class="bg-green-600 inline-block px-6 py-3 rounded-lg shadow-md">
-                <h2 class="text-2xl font-semibold text-white text-center ">
-                    Explore Our Courses
+        <div class="flex justify-center py-10 mb-4 relative">
+            <div class="bg-green-600 inline-block px-4 py-2 rounded-md shadow-sm relative z-10">
+                <h2 class="text-lg font-semibold text-white text-center">
+                    Start Learning
                 </h2>
             </div>
+            <div class="absolute top-1/2 transform -translate-y-1/2 left-0 w-full sm:left-[20%] sm:w-[60%] h-0.5 bg-green-700 z-0"></div>
         </div>
         
         
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        <div class="bg-white rounded-md shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 mx-2"> <img src="https://source.unsplash.com/random/400x250/?coding" alt="Course Image" class="w-full h-32 object-cover">
-          <div class="p-4">
-            <h3 class="text-lg font-semibold mb-1 text-gray-800">Web Dev</h3>
-            <p class="text-sm text-gray-600 mb-2">Build apps.</p>
-            <span class="text-sm font-semibold text-blue-600">$199</span>
-          </div>
-        </div>
+   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
   
-        <div class="bg-white rounded-md shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 mx-2">
-          <img src="https://source.unsplash.com/random/400x250/?design" alt="Course Image" class="w-full h-32 object-cover">
-          <div class="p-4">
-            <h3 class="text-lg font-semibold mb-1 text-gray-800">UI/UX</h3>
-            <p class="text-sm text-gray-600 mb-2">User design.</p>
-            <span class="text-sm font-semibold text-blue-600">$149</span>
-          </div>
-        </div>
-  
-        <div class="bg-white rounded-md shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 mx-2">
-          <img src="https://source.unsplash.com/random/400x250/?marketing" alt="Course Image" class="w-full h-32 object-cover">
-          <div class="p-4">
-            <h3 class="text-lg font-semibold mb-1 text-gray-800">Marketing</h3>
-            <p class="text-sm text-gray-600 mb-2">Digital ads.</p>
-            <span class="text-sm font-semibold text-blue-600">$249</span>
-          </div>
-        </div>
-  
-        <div class="bg-white rounded-md shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 mx-2">
-          <img src="https://source.unsplash.com/random/400x250/?python" alt="Course Image" class="w-full h-32 object-cover">
-          <div class="p-4">
-            <h3 class="text-lg font-semibold mb-1 text-gray-800">Python</h3>
-            <p class="text-sm text-gray-600 mb-2">Programming.</p>
-            <span class="text-sm font-semibold text-blue-600">$299</span>
-          </div>
-        </div>
-  
-        <div class="bg-white rounded-md shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 mx-2">
-          <img src="https://source.unsplash.com/random/400x250/?photography" alt="Course Image" class="w-full h-32 object-cover">
-          <div class="p-4">
-            <h3 class="text-lg font-semibold mb-1 text-gray-800">Photo</h3>
-            <p class="text-sm text-gray-600 mb-2">Capture moments.</p>
-            <span class="text-sm font-semibold text-blue-600">$179</span>
-          </div>
-        </div>
-  
-        <div class="bg-white rounded-md shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 mx-2">
-          <img src="https://source.unsplash.com/random/400x250/?data" alt="Course Image" class="w-full h-32 object-cover">
-          <div class="p-4">
-            <h3 class="text-lg font-semibold mb-1 text-gray-800">Data</h3>
-            <p class="text-sm text-gray-600 mb-2">Analyze data.</p>
-            <span class="text-sm font-semibold text-blue-600">$229</span>
-          </div>
-        </div>
-  
-        <div class="bg-white rounded-md shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 mx-2">
-          <img src="https://source.unsplash.com/random/400x250/?writing" alt="Course Image" class="w-full h-32 object-cover">
-          <div class="p-4">
-            <h3 class="text-lg font-semibold mb-1 text-gray-800">Writing</h3>
-            <p class="text-sm text-gray-600 mb-2">Creative prose.</p>
-            <span class="text-sm font-semibold text-blue-600">$169</span>
-          </div>
-        </div>
-  
-        <div class="bg-white rounded-md shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 mx-2">
-          <img src="https://source.unsplash.com/random/400x250/?music" alt="Course Image" class="w-full h-32 object-cover">
-          <div class="p-4">
-            <h3 class="text-lg font-semibold mb-1 text-gray-800">Music</h3>
-            <p class="text-sm text-gray-600 mb-2">Play an instrument.</p>
-            <span class="text-sm font-semibold text-blue-600">$189</span>
-          </div>
-        </div>
-      </div>
+  <div class="bg-white rounded-md shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 p-3">
+    <img src="https://source.unsplash.com/random/300x180/?marketing" alt="Course Image" class="w-full h-24 object-cover rounded">
+    <div class="p-3">
+      <h3 class="text-md font-semibold text-gray-800">Marketing</h3>
+      <p class="text-xs text-gray-600 mb-2">Digital ads.</p>
+      <span class="text-sm font-semibold text-blue-600">$249</span>
+    </div>
+  </div>
+
+  <div class="bg-white rounded-md shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 p-3">
+    <img src="https://source.unsplash.com/random/300x180/?python" alt="Course Image" class="w-full h-24 object-cover rounded">
+    <div class="p-3">
+      <h3 class="text-md font-semibold text-gray-800">Python</h3>
+      <p class="text-xs text-gray-600 mb-2">Programming.</p>
+      <span class="text-sm font-semibold text-blue-600">$299</span>
+    </div>
+  </div>
+
+  <div class="bg-white rounded-md shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 p-3">
+    <img src="https://source.unsplash.com/random/300x180/?photography" alt="Course Image" class="w-full h-24 object-cover rounded">
+    <div class="p-3">
+      <h3 class="text-md font-semibold text-gray-800">Photo</h3>
+      <p class="text-xs text-gray-600 mb-2">Capture moments.</p>
+      <span class="text-sm font-semibold text-blue-600">$179</span>
+    </div>
+  </div>
+
+  <div class="bg-white rounded-md shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 p-3">
+    <img src="https://source.unsplash.com/random/300x180/?data" alt="Course Image" class="w-full h-24 object-cover rounded">
+    <div class="p-3">
+      <h3 class="text-md font-semibold text-gray-800">Data</h3>
+      <p class="text-xs text-gray-600 mb-2">Analyze data.</p>
+      <span class="text-sm font-semibold text-blue-600">$229</span>
+    </div>
+  </div>
+
+  <div class="bg-white rounded-md shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 p-3">
+    <img src="https://source.unsplash.com/random/300x180/?writing" alt="Course Image" class="w-full h-24 object-cover rounded">
+    <div class="p-3">
+      <h3 class="text-md font-semibold text-gray-800">Writing</h3>
+      <p class="text-xs text-gray-600 mb-2">Creative prose.</p>
+      <span class="text-sm font-semibold text-blue-600">$169</span>
+    </div>
+  </div>
+
+  <div class="bg-white rounded-md shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 p-3">
+    <img src="https://source.unsplash.com/random/300x180/?music" alt="Course Image" class="w-full h-24 object-cover rounded">
+    <div class="p-3">
+      <h3 class="text-md font-semibold text-gray-800">Music</h3>
+      <p class="text-xs text-gray-600 mb-2">Play an instrument.</p>
+      <span class="text-sm font-semibold text-blue-600">$189</span>
+    </div>
+  </div>
+
+</div>
+
     </div>
   </section>
 
 <section class="bg-gray-100 py-16">
   <div class="container mx-auto px-4">
-    <div class="flex justify-center mb-8 py-4">
-        <div class="bg-green-600 inline-block px-6 py-3 rounded-lg shadow-md">
-            <h2 class="text-2xl font-semibold text-white text-center">
-                Course Categories       
-                 </h2>
+    <div class="flex justify-center py-10 mb-4 relative">
+        <div class="bg-green-600 inline-block px-4 py-2 rounded-md shadow-sm relative z-10">
+            <h2 class="text-lg font-semibold text-white text-center">
+                Explore
+            </h2>
         </div>
-    </div>      {{-- <p class="text-gray-600 text-center mb-8">
+        <div class="absolute top-1/2 transform -translate-y-1/2 left-0 w-full sm:left-[20%] sm:w-[60%] h-0.5 bg-green-700 z-0"></div>
+    </div>     {{-- <p class="text-gray-600 text-center mb-8">
           Discover a wide range of courses crafted to enhance your skills and accelerate your career.
       </p> --}}
 
@@ -372,12 +362,13 @@
 
 <section class="bg-gray-100 py-10">
   <div class="container mx-auto px-4">
-    <div class="flex justify-center py-4 mb-8">
-        <div class="bg-green-600 inline-block px-6 py-3 rounded-lg shadow-md">
-            <h2 class="text-2xl font-semibold text-white text-center">
-                Our Services
+    <div class="flex justify-center py-10 mb-4 relative">
+        <div class="bg-green-600 inline-block px-4 py-2 rounded-md shadow-sm relative z-10">
+            <h2 class="text-lg font-semibold text-white text-center">
+                Ideas to Solutions
             </h2>
         </div>
+        <div class="absolute top-1/2 transform -translate-y-1/2 left-0 w-full sm:left-[20%] sm:w-[60%] h-0.5 bg-green-700 z-0"></div>
     </div>
     <div class="flex flex-wrap justify-center gap-5">
         <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 w-80 m-4 p-6 flex flex-col">
@@ -503,12 +494,13 @@
 
 <section class="py-16 px-20 bg-gray-100">
   <div class="container mx-6 text-center">
-    <div class="flex justify-center mb-8 py-4">
-        <div class="bg-green-600 inline-block px-6 py-3 rounded-lg shadow-md">
-            <h2 class="text-2xl font-semibold text-white text-center">
-                Our Previous Clients
+    <div class="flex justify-center py-10 mb-4 relative">
+        <div class="bg-green-600 inline-block px-4 py-2 rounded-md shadow-sm relative z-10">
+            <h2 class="text-lg font-semibold text-white text-center">
+                Our Collaborative Journey
             </h2>
         </div>
+        <div class="absolute top-1/2 transform -translate-y-1/2 left-0 w-full sm:left-[20%] sm:w-[60%] h-0.5 bg-green-700 z-0"></div>
     </div>
       <div class="flex flex-wrap justify-center gap-4 px-4">
           <div class="p-3 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-28 h-28 flex items-center justify-center">
@@ -568,13 +560,14 @@
 
 
 <section class="mt-16">
-    <div class="flex justify-center mb-8 py-4">
-        <div class="bg-green-600 inline-block px-6 py-3 rounded-lg shadow-md">
-            <h2 class="text-2xl font-semibold text-white text-center">
-Testimonials            
-</h2>
+    <div class="flex justify-center py-10 mb-4 relative">
+        <div class="bg-green-600 inline-block px-4 py-2 rounded-md shadow-sm relative z-10">
+            <h2 class="text-lg font-semibold text-white text-center">
+                Testimonials
+            </h2>
         </div>
-    </div> 
+        <div class="absolute top-1/2 transform -translate-y-1/2 left-0 w-full sm:left-[20%] sm:w-[60%] h-0.5 bg-green-700 z-0"></div>
+    </div>
     
     <div class="flex flex-wrap justify-center gap-8">
       <div class="bg-white rounded-lg shadow-md p-6 text-center w-80">
@@ -599,13 +592,14 @@ Testimonials
 
 <section class="py-16 bg-white">
     <div class="container mx-auto text-center">
-      <div class="flex justify-center mb-8 py-10">
-          <div class="bg-green-600 inline-block px-6 py-3 rounded-lg shadow-md">
-              <h2 class="text-2xl font-semibold text-white text-center">
-                  Our Affiliations
-              </h2>
-          </div>
-      </div>     
+        <div class="flex justify-center py-10 mb-4 relative">
+            <div class="bg-green-600 inline-block px-4 py-2 rounded-md shadow-sm relative z-10">
+                <h2 class="text-lg font-semibold text-white text-center">
+                    Affilitations
+                </h2>
+            </div>
+            <div class="absolute top-1/2 transform -translate-y-1/2 left-0 w-full sm:left-[20%] sm:w-[60%] h-0.5 bg-green-700 z-0"></div>
+        </div>
   
       <div class="flex flex-wrap justify-center gap-8">
   
@@ -631,16 +625,36 @@ Testimonials
               <h3 class="text-lg font-semibold text-gray-800">
                   <a href="https://t4d.or.ke" class="text-blue-600 hover:underline" target="_blank">T4d.or.ke </a>
               </h3>
-              <p class="text-sm text-gray-600 mt-2">Medialytica.com is a media buying portal that connects content creators to advertisers.</p>
+              <p class="text-sm text-gray-600 mt-2">T4d.or.ke is an online blog that provides insights and detailed information on eLearning courses.
+              </p>
           </div>
   
           <div class="flex flex-col items-center p-6 bg-gray-100 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-64">
-              <img src="logos/medialytica.webp" alt="Medialytica Logo" class="max-h-20 max-w-full object-contain mb-4">
+              <img src="logos/howafrica.png" alt="Medialytica Logo" class="max-h-20 max-w-full object-contain mb-4">
               <h3 class="text-lg font-semibold text-gray-800">
-                  <a href="https://medialytica.com" class="text-blue-600 hover:underline" target="_blank">Medialytica.com</a>
+                  <a href="https://howafrica.africa" class="text-blue-600 hover:underline" target="_blank">Howafrica.africa </a>
               </h3>
-              <p class="text-sm text-gray-600 mt-2">Medialytica.com is a media buying portal that connects content creators to advertisers.</p>
+              <p class="text-sm text-gray-600 mt-2">Howafrica.africa is an online blog that covers news, features, and reviews.
+              </p>
           </div>
+
+          <div class="flex flex-col items-center p-6 bg-gray-100 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-64">
+            <img src="logos/afrobookies.png" alt="Medialytica Logo" class="max-h-20 max-w-full object-contain mb-4">
+            <h3 class="text-lg font-semibold text-gray-800">
+                <a href="https://afrobookies.com" class="text-blue-600 hover:underline" target="_blank">Afrobookies.com                </a>
+            </h3>
+            <p class="text-sm text-gray-600 mt-2">Afrobookies.com is an online blog that covers sports, online gaming news and reviews.
+            </p>
+        </div>
+
+        <div class="flex flex-col items-center p-6 bg-gray-100 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-64">
+            <img src="logos/howto.jpg" alt="Medialytica Logo" class="max-h-20 max-w-full object-contain mb-4">
+            <h3 class="text-lg font-semibold text-gray-800">
+                <a href="https://howto.co.ke" class="text-blue-600 hover:underline" target="_blank">howto.co.ke                </a>
+            </h3>
+            <p class="text-sm text-gray-600 mt-2">Howto.co.ke is an online blog that covers news, features, and reviews.
+            </p>
+        </div>
   
       </div>
     </div>
@@ -649,35 +663,42 @@ Testimonials
 
 <section class="bg-white py-12 px-6">
     <div class="max-w-6xl mx-auto text-center">
- <div class="flex justify-center mb-8 py-4">
-        <div class="bg-green-600 inline-block px-6 py-3 rounded-lg shadow-md">
-            <h2 class="text-2xl font-semibold text-white text-center">
-                Mission, Vision & Core Values            
-</h2>
+        <div class="flex justify-center py-10 mb-4 relative">
+            <div class="bg-green-600 inline-block px-4 py-2 rounded-md shadow-sm relative z-10">
+                <h2 class="text-lg font-semibold text-white text-center">
+                    Mission, Vision & Core Values
+
+                </h2>
+            </div>
+            <div class="absolute top-1/2 transform -translate-y-1/2 left-0 w-full sm:left-[20%] sm:w-[60%] h-0.5 bg-green-700 z-0"></div>
         </div>
-    </div>         
+
         <div class="grid md:grid-cols-3 gap-8">
             <!-- Mission -->
             <div class="bg-white p-6 shadow-lg rounded-2xl">
-                <h3 class="text-xl font-semibold text-blue-600 mb-4">Our Mission</h3>
+                <h3 class="text-xl font-semibold text-blue-600 mb-4">Mission</h3>
                 <p class="text-gray-600">To enable people, businesses, organisations and governments achieve optimal productivity by leveraging new, upcoming and existing technologies.</p>
             </div>
             
             <!-- Vision -->
             <div class="bg-white p-6 shadow-lg rounded-2xl">
-                <h3 class="text-xl font-semibold text-green-600 mb-4">Our Vision</h3>
+                <h3 class="text-xl font-semibold text-green-600 mb-4">Vision</h3>
                 <p class="text-gray-600">To become the go-to destination for new, upcoming and existing tech innovations.</p>
             </div>
             
             <!-- Core Values -->
             <div class="bg-white p-6 shadow-lg rounded-2xl">
-                <h3 class="text-xl font-semibold text-yellow-600 mb-4">Our Core Values</h3>
+                <h3 class="text-xl font-semibold text-yellow-600 mb-4">Core Values</h3>
                 <p class="text-gray-600">Continuous Learning and Improvement, Professionalism, Integrity, Commitment and Hard work
         </p>
             </div>
         </div>
     </div>
 </section>
+
+
+{{-- blue top footer --}}
+<div class="w-full h-1 bg-blue-500"></div>
 
 
 @endsection
