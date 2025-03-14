@@ -24,11 +24,11 @@
         </div>
         <!-- END page breadcrumbs -->
 <section class="">
-    <div id="map" class="relative h-[350px] overflow-hidden bg-cover bg-[50%] bg-no-repeat">
+    {{-- <div id="map" class="relative h-[350px] overflow-hidden bg-cover bg-[50%] bg-no-repeat">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8969789117027!2d36.83540597436076!3d-1.2313449355672674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1130733e284b%3A0xcb18023e46ff25a8!2sIndepth%20Research%20Institute%20(IRES)!5e0!3m2!1sen!2ske!4v1706173824798!5m2!1sen!2ske"
         width="100%" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    </div>
+    </div> --}}
     <div class=" flex justify-center items-center flex-grow px-4 py-6">
       <div
         class="lg:w-[1020px] mx-auto block rounded-lg  shadow-lg shadow-gray-400 md:py-16 px-4 py-6 -mt-[100px] backdrop-blur-[30px] mb-32">
@@ -61,7 +61,7 @@
                         Customer support
                         </p>
                         <p class="text-sm text-neutral-500">
-                            outreach@indepthresearch.org
+                            letstalk@techfordevelopment.com
                         </p>
                     
                     </div>
@@ -82,7 +82,7 @@
                         <p class="mb-2 font-bold text-[#00a651] ">
                         Address
                         </p>
-                        <p class="text-sm text-neutral-500 w-full ">Tala Road, Off Kiambu Road, Runda - Nairobi.
+                        <p class="text-sm text-neutral-500 w-full ">Tala Road, Runda - Nairobi.
                     
                         </p>
                     </div>
@@ -103,7 +103,7 @@
                     <div class="ml-6 grow">
                         <p class="mb-2 font-bold text-[#00a651]">Land Line</p>
                         <p class="text-neutral-500">
-                        (+254) 792 516 000
+                            (+254) 11 343 4055
                         </p>
                     </div>
                     </div>
@@ -121,7 +121,7 @@
                     </div>
                     <div class="ml-6 grow">
                         <p class="mb-2 font-bold text-[#00a651]">Mobile</p>
-                        <p class="text-neutral-500 ">(+254) 715 077 817
+                        <p class="text-neutral-500 ">(+254) 11 343 4055
                         </p>
                     </div>
                     </div>
@@ -140,7 +140,7 @@
                     </div>
                     <div class="ml-6 grow">
                         <p class="mb-2 font-bold text-[#00a651]">WhatsApp</p>
-                        <p class="text-neutral-500 ">(+254) 792 516 105
+                        <p class="text-neutral-500 ">(+254) 11 343 4055
                         </p>
                     </div>
                     </div>
@@ -199,7 +199,7 @@
                     <div id="organization-form" class="p-6">
                         <input value="organization" type="hidden" name="type">
                         <p class="text-center text-gray-600 hidden" id="organization">Companies with 2+ employees or up to <br>75 learners.</p>
-                        <p class="text-center text-gray-600" id="individual">Explore IRES as your individual professional or personal <br>development partner.</p>
+                        <p class="text-center text-gray-600" id="individual">Explore Tech For Development as your individual professional or personal <br>development partner.</p>
                         <div class="space-y-4">
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                                 <div>

@@ -140,7 +140,7 @@ Route::get('our-venues', 'AboutController@our_venues')->name('our-venues');
 Route::get('our-clients', 'AboutController@clients')->name('clients');
 Route::get('our-clients/{slug}', 'AboutController@viewClients')->name('viewClients');
 Route::get('all-clients/', 'AboutController@allClients')->name('all-clients');
-Route::get('contact', 'ContactController@form')->name('contact');
+Route::get('contact',  'ContactController@form')->name('contact');
 Route::post('contact/submit', 'ContactController@submit')->name('contact.submit');
 Route::get('search', 'SearchController@index')->name('search');
 

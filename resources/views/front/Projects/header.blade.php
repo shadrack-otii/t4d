@@ -1,7 +1,7 @@
 <header class="@yield('position', 'sticky') top-0 left-0 bg-white w-full z-[99]">
 <!-- Topbar -->
 
-<div class="bg-green-500 text-white text-sm py-2 px-4">
+<div class="bg-[#04A753] text-white text-sm py-2 px-4">
     <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
         <!-- Left section: Contact Info -->
         <div class="w-full text-sm flex flex-grow justify-center justify-evenly flex-wrap gap-4 mt-2 sm:mt-0">
@@ -612,10 +612,10 @@
                   
                             <div class="absolute z-10 scale-y-0 group-hover:scale-y-100 origin-top duration-500  mt-2 w-48 origin-top-right rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5 group-hover:block" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
                               <div class="py-1 bg-gray-100 rounded-lg" role="none">
-                                <a href="{{route('about')}}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition delay-150 duration-700 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-gray-100 rounded-full" role="menuitem" tabindex="-1" id="menu-item-0">About us</a>
+                                <a href="{{route('contact')}}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition delay-150 duration-700 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-gray-100 rounded-full" role="menuitem" tabindex="-1" id="menu-item-0">About us</a>
                                 <a href="{{route('contact')}}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition delay-150 duration-700 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-gray-100 rounded-full" role="menuitem" tabindex="-1" id="menu-item-1">Contact</a>
                                 <a href="https://teefodee.com/blog/" target="_blank" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition delay-150 duration-700 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-gray-100 rounded-full" role="menuitem" tabindex="-1" id="menu-item-2">Blog</a>
-                                <a href="{{ route('faqs') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition delay-150 duration-700 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-gray-100 rounded-full" role="menuitem" tabindex="-1" id="menu-item-3">FAQs</a>
+                                <a href="{{route('contact')}}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition delay-150 duration-700 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-gray-100 rounded-full" role="menuitem" tabindex="-1" id="menu-item-3">FAQs</a>
                                 <a href="{{route('contact')}}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition delay-150 duration-700 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-gray-100 rounded-full" role="menuitem" tabindex="-1" id="menu-item-1">Services</a>
 
 
