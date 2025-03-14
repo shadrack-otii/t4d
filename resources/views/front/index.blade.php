@@ -508,8 +508,8 @@
   </script>
 
 
-<section class="py-16 bg-gray-100">
-  <div class="container mx-auto text-center">
+<section class="py-16 px-20 bg-gray-100">
+  <div class="container mx-6 text-center">
     <div class="flex justify-center mb-8 py-4">
         <div class="bg-green-600 inline-block px-6 py-3 rounded-lg shadow-md">
             <h2 class="text-2xl font-semibold text-white text-center">
@@ -519,36 +519,54 @@
     </div>
       <div class="flex flex-wrap justify-center gap-4 px-4">
           <div class="p-3 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-28 h-28 flex items-center justify-center">
-              <img src="logos/kpalogo.jpg" alt="Client 1 Logo" class="max-h-20 max-w-full object-contain">
+              <img src="images/clientlogos/danish.jpg" alt="Client 1 Logo" class="max-h-20 max-w-full object-contain">
           </div>
 
           <div class="p-3 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-28 h-28 flex items-center justify-center">
-              <img src="logos/enplogo.jpg" alt="Client 2 Logo" class="max-h-20 max-w-full object-contain">
+              <img src="images/clientlogos/ecumenical.jpg" alt="Client 2 Logo" class="max-h-20 max-w-full object-contain">
           </div>
 
           <div class="p-3 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-28 h-28 flex items-center justify-center">
-              <img src="client-logo-3.png" alt="Client 3 Logo" class="max-h-20 max-w-full object-contain">
+              <img src="images/clientlogos/ehealth.png" alt="Client 3 Logo" class="max-h-20 max-w-full object-contain">
           </div>
 
           <div class="p-3 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-28 h-28 flex items-center justify-center">
-              <img src="client-logo-4.png" alt="Client 4 Logo" class="max-h-20 max-w-full object-contain">
+              <img src="images/clientlogos/ey.png" alt="Client 4 Logo" class="max-h-20 max-w-full object-contain">
           </div>
 
           <div class="p-3 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-28 h-28 flex items-center justify-center">
-              <img src="client-logo-5.png" alt="Client 5 Logo" class="max-h-20 max-w-full object-contain">
+              <img src="images/clientlogos/foodforthehungry.jpg" alt="Client 5 Logo" class="max-h-20 max-w-full object-contain">
           </div>
 
           <div class="p-3 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-28 h-28 flex items-center justify-center">
-              <img src="client-logo-6.png" alt="Client 6 Logo" class="max-h-20 max-w-full object-contain">
+              <img src="images/clientlogos/ipa.jpg" alt="Client 6 Logo" class="max-h-20 max-w-full object-contain">
           </div>
 
           <div class="p-3 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-28 h-28 flex items-center justify-center">
-              <img src="client-logo-5.png" alt="Client 5 Logo" class="max-h-20 max-w-full object-contain">
+              <img src="images/clientlogos/itel.jpg" alt="Client 5 Logo" class="max-h-20 max-w-full object-contain">
           </div>
 
           <div class="p-3 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-28 h-28 flex items-center justify-center">
-              <img src="client-logo-6.png" alt="Client 6 Logo" class="max-h-20 max-w-full object-contain">
+              <img src="images/clientlogos/kemrilogo.jpg" alt="Client 6 Logo" class="max-h-20 max-w-full object-contain">
           </div>
+
+          <div class="p-3 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-28 h-28 flex items-center justify-center">
+            <img src="images/clientlogos/kephis.jpg" alt="Client 6 Logo" class="max-h-20 max-w-full object-contain">
+        </div>
+        <div class="p-3 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-28 h-28 flex items-center justify-center">
+            <img src="images/clientlogos/medair.jpg" alt="Client 6 Logo" class="max-h-20 max-w-full object-contain">
+        </div><div class="p-3 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-28 h-28 flex items-center justify-center">
+            <img src="images/clientlogos/nationalcouncil.jpg" alt="Client 6 Logo" class="max-h-20 max-w-full object-contain">
+        </div><div class="p-3 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-28 h-28 flex items-center justify-center">
+            <img src="images/clientlogos/newlogo-.jpg" alt="Client 6 Logo" class="max-h-20 max-w-full object-contain">
+        </div><div class="p-3 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-28 h-28 flex items-center justify-center">
+            <img src="images/clientlogos/savethechildren.jpg" alt="Client 6 Logo" class="max-h-20 max-w-full object-contain">
+        </div><div class="p-3 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-28 h-28 flex items-center justify-center">
+            <img src="images/clientlogos/sightsavers.png" alt="Client 6 Logo" class="max-h-20 max-w-full object-contain">
+        </div><div class="p-3 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-28 h-28 flex items-center justify-center">
+            <img src="images/clientlogos/worldvision.jpg" alt="Client 6 Logo" class="max-h-20 max-w-full object-contain">
+        </div>
+
       </div>
   </div>
 </section>
