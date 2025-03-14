@@ -6,26 +6,19 @@
     <div class="relative w-full h-72 md:h-[400px] overflow-hidden rounded-lg">
         <div class="absolute inset-0 flex transition-transform duration-500 ease-in-out" id="simple-slider">
 
-            <div class="min-w-full flex flex-col md:flex-row bg-gray-100 py-12">
-                <!-- Text Section -->
-                <div class="md:w-3/5 flex items-center justify-center p-10">
-                    <div class="text-center text-black max-w-2xl bg-white p-8 rounded-lg shadow-xl border border-green-500">
-                        <h2 class="text-2xl font-extrabold text-gray-900 mb-4 drop-shadow-md">
+            <div class="min-w-full flex md:flex-row">
+                <div class="md:w-1/2 flex items-center justify-center p-8">
+                    <div class="text-center text-black max-w-2xl bg-white p-6 rounded-lg shadow-md">
+                        <h2 class="bg-green-500 text-white text-xl md:text-2xl font-semibold mb-4 drop-shadow-lg p-2 rounded-lg">
                             Welcome to Tech For Development
-                        </h2>
-                        <p class="text-lg font-medium text-gray-700 mb-6 drop-shadow-lg leading-relaxed">
-                            Where innovation meets impact. Your go-to hub for all things data and tailored technology solutions.
-                        </p>
-                        <a href="#" class="bg-blue-600 hover:bg-blue-800 text-white font-bold py-3 px-6 rounded-full shadow-lg transition-all duration-300 ease-in-out">
-                            Explore More
-                        </a>
+
+                        </h2>                        
+                        <p class="text-lg [font-size:18px] mb-6 drop-shadow-lg">  Where innovation meets impact. Your go-to hub for all things data and tailored technology solutions.                        </p>
+                        <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-md">Explore More</a>
                     </div>
                 </div>
-            
-                <!-- Image Section -->
-                <div class="md:w-2/5 h-96 md:h-auto relative">
-                    <div class="absolute inset-0 bg-black/30 rounded-lg"></div>
-                    <img src="images/slider.webp" alt="Technology" class="absolute inset-0 w-full h-full object-fit rounded-lg">
+                <div class="md:w-1/2 h-full relative">
+                    <img src="images/slider.webp" alt="Nature" class="absolute inset-0 w-full h-full object-cover rounded-lg">
                 </div>
             </div>
             
